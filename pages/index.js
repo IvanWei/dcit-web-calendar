@@ -9,11 +9,12 @@ export async function getStaticProps() {
 
   if (data) {
     events = data.map((event) => ({
-      title: event.name.link.title,
+      title: (typeof event.name === 'string'?event.name:event.name.link.title),
       start: event.startDate,
       end: event.endDate,
       resource: {
         flag: event.flag,
+        link: (typeof event.name === 'string'?null:event.name.link.source),
         oversea: event.oversea,
         venue: event.venue,
         callForSpeaker: event.callForSpeaker,

@@ -1,0 +1,38 @@
+name: Update HTML content
+on:
+  schedule:
+    - cron: '0 0/1 * * *'
+  workflow_dispatch:
+
+jobs:
+  contents:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup ssh-agent
+        uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{secrets.SSH_PRIVATE_KEY}}
+      - name: Setup User Information
+        run: |
+          git config --global user.email "ivanwei_slack@outlook.com"
+          git config --global user.name "WorldEarthBot"
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install Node.js packages
+        run: yarn install
+      - name: Create html page
+        run: npm run build
+      - name: Git clone gh-pages
+        run: git clone git@github.com:IvanWei/dcit-web-calendar.git -b gh-pages
+      - name: Deployment
+        run: |
+          cp -r out/* dcit-web-calendar/
+          cd dcit-web-calendar
+          git add .
+          git commit -m 'Deploy content to gh-pages'
+          git push

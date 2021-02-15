@@ -32,7 +32,7 @@ jobs:
       - name: Deployment
         run: |
           cp -r out/* dcit-web-calendar/
-          cp CANME dcit-web-calendar/CNAME
+          cp CNAME dcit-web-calendar/CNAME
           cd dcit-web-calendar
           git add .
           git commit -m 'Deploy content to gh-pages'

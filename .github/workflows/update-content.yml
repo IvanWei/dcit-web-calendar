@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 12
       - name: Install Node.js packages
-        run: yarn install
+        run: yarn install --frozen-lockfile --check-files
       - name: Create html page
         run: npm run build
       - name: Git clone gh-pages

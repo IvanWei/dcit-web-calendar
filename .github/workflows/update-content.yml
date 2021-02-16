@@ -31,9 +31,11 @@ jobs:
         run: git clone git@github.com:IvanWei/dcit-web-calendar.git -b gh-pages
       - name: Deployment
         run: |
+          rm -rf dcit-web-calendar/**/*
           cp -r out/* dcit-web-calendar/
           cp CNAME dcit-web-calendar/CNAME
           cd dcit-web-calendar
+          touch .nojekyll
           git add .
           git commit -m 'Deploy content to gh-pages'
           git push

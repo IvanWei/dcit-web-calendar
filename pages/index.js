@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Calendar from './Calendar';
+import Calendar from '../components/Calendar';
 
 export async function getStaticProps() {
   const res = await fetch('https://script.google.com/macros/s/AKfycbxeVoHvVLXtQnHxsBIb9oUbwFoRrmg5L9_Hie6feqEhIRdoYk4/exec?type=api');

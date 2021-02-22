@@ -43,9 +43,9 @@ function HomePage(props) {
     </Head>
     <div>
       <nav>
-        <a className='link' style={{background: 'rgb(28, 184, 65)'}} href='https://dcit.ivanwei.co/' target='_blank' rel='ugc'>查詢今年活動 (總表)</a>
+        <a className='link' style={{background: 'rgb(28, 184, 65)'}} href='https://dcit.ivanwei.co/' rel='ugc'>查詢今年活動 (總表)</a>
         <a className='link' style={{background: '#8058a5'}} href='/' rel='ugc'>查詢今年活動 (行事曆版)</a>
-        <a className='link' style={{background: 'rgb(66, 184, 221)'}} href='https://dcit.ivanwei.co/organization' target='_blank' rel='ugc'>查看活動籌備單位</a>
+        <a className='link' style={{background: 'rgb(66, 184, 221)'}} href='https://dcit.ivanwei.co/organization' rel='ugc'>查看活動籌備單位</a>
         <a className='link' style={{background: 'rgb(223, 117, 20)'}} href='https://github.com/IvanWei/developer-conferences-in-taiwan/blob/master/data/list-of-organizations.json' target='_blank' rel='ugc nofollow'>新增活動籌備單位</a>
       </nav>
       <Calendar events={props.events} style="margin-top: 100px;" />

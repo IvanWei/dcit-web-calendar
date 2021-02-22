@@ -87,12 +87,16 @@ const MyCalendar = (props) => {
           </div>)
         });
       }}
-      style={{ height: '95vh' }}
+      style={{ height: '95vh', marginTop: '20px' }}
       onSelectSlot={({ start, end }) => {
 
       }}
       // eventPropGetter={}
     />
+
+    <div>
+      Copyright Ivan Wei
+    </div>
   </div>);
 }
 

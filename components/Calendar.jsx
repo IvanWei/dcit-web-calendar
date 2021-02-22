@@ -61,7 +61,7 @@ const MyCalendar = (props) => {
         NewSwal.fire({
           title: (<p>{evt.title}</p>),
           html: (<div style={{textAlign: 'left'}}>
-            <div>Flag：{evt.resource.flag}</div>
+            {evt.resource.flag && <div>Flag：{evt.resource.flag}</div>}
             {evt.resource.link && <div>活動官網：<a style={{textDecoration: 'none', color: '#0070ff'}} href={evt.resource.link}
               rel='noreferrer nofollow' target='_blank'>Link</a>
             </div>}

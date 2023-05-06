@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Calendar, dateFnsLocalizer } from 'react-big-calendar';
 import format from 'date-fns/format';
 import parse from 'date-fns/parse';
@@ -26,20 +27,20 @@ const LinkComponent = (props) => {
     if (props.data === '---') {
       return props.data;
     } else {
-      return <a style={{textDecoration: 'none', color: '#0070ff'}} href={props.data}
+      return <Link style={{textDecoration: 'none', color: '#0070ff'}} href={props.data}
         rel='noreferrer nofollow' target='_blank'
       >
         {props.data}
-      </a>
+      </Link>
     }
   }
 
   return (
-    <a style={{textDecoration: 'none', color: '#0070ff'}} href={props.data.link.source}
+    <Link style={{textDecoration: 'none', color: '#0070ff'}} href={props.data.link.source}
       rel='noreferrer nofollow' target='_blank'
     >
       {props.data.link.title}
-    </a>
+    </Link>
   );
 }
 
@@ -62,8 +63,8 @@ const MyCalendar = (props) => {
           title: (<p>{evt.title}</p>),
           html: (<div style={{textAlign: 'left'}}>
             {evt.resource.flag && <div>Flag：{evt.resource.flag}</div>}
-            {evt.resource.link && <div>活動官網：<a style={{textDecoration: 'none', color: '#0070ff'}} href={evt.resource.link}
-              rel='noreferrer nofollow' target='_blank'>Link</a>
+            {evt.resource.link && <div>活動官網：<Link style={{textDecoration: 'none', color: '#0070ff'}} href={evt.resource.link}
+              rel='noreferrer nofollow' target='_blank'>Link</Link>
             </div>}
             <div>活動地點：
               <span style={{marginRight: 10}}>{evt.resource.oversea}</span>

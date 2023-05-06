@@ -1,12 +1,13 @@
 {
   "name": "dcit-web-calendar",
   "version": "0.0.0",
-  "description": "",
+  "description": "Developer Conferences In Taiwan",
   "main": "index.js",
   "scripts": {
     "dev": "next dev -p 8080",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -23,14 +24,17 @@
     "url": "https://github.com/IvanWei/dcit-web-calendar/issues"
   },
   "homepage": "https://github.com/IvanWei/dcit-web-calendar#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0"
+  },
   "dependencies": {
-    "date-fns": "^2.17.0",
-    "next": "^10.0.6",
-    "react": "^17.0.1",
-    "react-big-calendar": "^0.32.0",
-    "react-dom": "^17.0.1",
-    "sweetalert2": "^10.14.1",
-    "sweetalert2-react-content": "^3.3.0"
+    "date-fns": "^2.30.0",
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-big-calendar": "^1.6.9",
+    "react-dom": "^18.2.0",
+    "sweetalert2": "^11.7.5",
+    "sweetalert2-react-content": "^5.0.7"
   }
 }

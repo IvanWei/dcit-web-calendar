@@ -1,5 +1,7 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import Calendar from '../components/Calendar';
+import LinkStyle from '../components/Link.module.css';
 
 export async function getStaticProps() {
   const res = await fetch('https://script.google.com/macros/s/AKfycbxeVoHvVLXtQnHxsBIb9oUbwFoRrmg5L9_Hie6feqEhIRdoYk4/exec?type=api');
@@ -39,32 +41,16 @@ export async function getStaticProps() {
 function HomePage(props) {
   return (<>
     <Head>
-      <title>DCIT</title>
+      <title>DCIT 行事曆</title>
     </Head>
     <div>
       <nav>
-        <a className='link' style={{background: 'rgb(28, 184, 65)'}} href='https://dcit.ivanwei.co/' rel='ugc'>查詢今年活動 (總表)</a>
-        <a className='link' style={{background: '#8058a5'}} href='/' rel='ugc'>查詢今年活動 (行事曆版)</a>
-        <a className='link' style={{background: 'rgb(66, 184, 221)'}} href='https://dcit.ivanwei.co/organization' rel='ugc'>查看活動籌備單位</a>
-        <a className='link' style={{background: 'rgb(223, 117, 20)'}} href='https://github.com/IvanWei/developer-conferences-in-taiwan/blob/master/data/list-of-organizations.json' target='_blank' rel='ugc nofollow'>新增活動籌備單位</a>
+        <Link className={LinkStyle.link} style={{background: 'rgb(28, 184, 65)'}} href='https://dcit.ivanwei.co/' rel='ugc'>查詢今年活動 (總表)</Link>
+        <Link className={LinkStyle.link} style={{background: '#8058a5'}} href='/' rel='ugc'>查詢今年活動 (行事曆版)</Link>
+        <Link className={LinkStyle.link} style={{background: 'rgb(66, 184, 221)'}} href='https://dcit.ivanwei.co/organization' rel='ugc'>查看活動籌備單位</Link>
+        <Link className={LinkStyle.link} style={{background: 'rgb(223, 117, 20)'}} href='https://github.com/IvanWei/developer-conferences-in-taiwan/blob/master/data/list-of-organizations.json' target='_blank' rel='ugc nofollow'>新增活動籌備單位</Link>
       </nav>
       <Calendar events={props.events} style="margin-top: 100px;" />
-      <style jsx>{`
-        .link {
-          text-decoration: none;
-
-          display: inline-block;
-          cursor: pointer;
-          padding: 5px;
-          text-align: center;
-          color: white;
-          border-radius: 4px;
-          text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
-        }
-        .link:not(:first-child) {
-          margin-left: 10px;
-        }
-      `}</style>
     </div>
   </>)
 }

@@ -6,12 +6,12 @@ DCIT-Calendar is calendar version with DCIT. This data gets [Google sheet](https
 
 ## Badges
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ivanwei/dcit-web-calendar/Update%20HTML%20content)
+![GitHub Workflow Status](https://github.com/ivanwei/dcit-web-calendar/actions/workflows/Update%20HTML%20content/badge.svg)
 
 ## Installation
 
 ```bash
-yarn install
+pnpmyarn install
 ```
 
 ## Usage

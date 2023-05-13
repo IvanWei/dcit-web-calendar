@@ -128,43 +128,47 @@ const MyCalendar = (props) => {
                   <span style={{ marginRight: 10 }}>{evt.resource.oversea}</span>
                   <LinkComponent data={evt.resource.venue} />
                 </div>
-                {!evt.title.includes('徵稿') && <>
-                  <div>
-                    售票連結：
-                    <LinkComponent data={evt.resource.ticket} />
-                  </div>
-                  <div>
-                    售票日期：
-                    {(() => {
-                      if (evt.resource.ticket === '---') {
+                {!evt.title.includes('徵稿') && (
+                  <>
+                    <div>
+                      售票連結：
+                      <LinkComponent data={evt.resource.ticket} />
+                    </div>
+                    <div>
+                      售票日期：
+                      {(() => {
+                        if (evt.resource.ticket === '---') {
+                          return '---';
+                        }
+                        if (evt.resource.ticketStartTime) {
+                          const { ticketStartTime, ticketEndTime } = evt.resource;
+
+                          return `${format(new Date(ticketStartTime), 'yyyy/MM/dd')} - ${format(
+                            new Date(ticketEndTime),
+                            'yyyy/MM/dd',
+                          )}`;
+                        }
+
                         return '---';
-                      }
-                      if (evt.resource.ticketStartTime) {
-                        const { ticketStartTime, ticketEndTime } = evt.resource;
-
-                        return `${format(new Date(ticketStartTime), 'yyyy/MM/dd')} - ${format(
-                          new Date(ticketEndTime),
-                          'yyyy/MM/dd',
-                        )}`;
-                      }
-
-                      return '---';
-                    })()}
-                  </div>
-                </>}
-                {evt.title.includes('徵稿') && <>
-                  <div>
-                    徵稿連結：
-                    <LinkComponent data={evt.resource.callForSpeaker} />
-                  </div>
-                  <div>
-                    徵稿日期：
-                    {`${format(new Date(evt.start), 'yyyy/MM/dd')} - ${format(
-                      new Date(evt.end),
-                      'yyyy/MM/dd',
-                    )}`}
-                  </div>
-                </>}
+                      })()}
+                    </div>
+                  </>
+                )}
+                {evt.title.includes('徵稿') && (
+                  <>
+                    <div>
+                      徵稿連結：
+                      <LinkComponent data={evt.resource.callForSpeaker} />
+                    </div>
+                    <div>
+                      徵稿日期：
+                      {`${format(new Date(evt.start), 'yyyy/MM/dd')} - ${format(
+                        new Date(evt.end),
+                        'yyyy/MM/dd',
+                      )}`}
+                    </div>
+                  </>
+                )}
               </div>
             ),
           });

@@ -159,9 +159,15 @@ function ActivityListPage({ events }) {
                   })()}
                 </td>
                 <td itemProp='location' itemScope itemType='https://schema.org/Place'>
-                  {event.venue.link.source !== 'https://maps.google.com/?q=' &&
-                  <Link itemProp='url' style={{textDecoration: 'none', color: '#0070ff'}} href={event.venue.link.source} rel='noreferrer nofollow' target='_blank'>{`${event.oversea} ${event.venue.link.title}`}</Link>
-                  }
+                  {event.venue.link.source !== 'https://maps.google.com/?q=' && (
+                    <Link
+                      itemProp='url'
+                      style={{ textDecoration: 'none', color: '#0070ff' }}
+                      href={event.venue.link.source}
+                      rel='noreferrer nofollow'
+                      target='_blank'
+                    >{`${event.oversea} ${event.venue.link.title}`}</Link>
+                  )}
                 </td>
               </tr>
             );

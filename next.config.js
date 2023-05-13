@@ -1,4 +1,5 @@
 module.exports = {
+  output: (process.env.NODE_ENV === 'development'?'standalone':'export'),
   poweredByHeader: false,
   reactStrictMode: false,
   // i18n: {

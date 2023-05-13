@@ -8,18 +8,29 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="zh-tw">
+      <Html lang='zh-tw'>
         <Head>
-          <link rel="icon" type="image/svg+xml" href='/favicon.svg' />
-          <link rel="alternate icon" href='/favicon.ico' />
+          <meta
+            name='description'
+            content='This records are Developer, DevOps, Design and etc. Conferences In Taiwan and the world.'
+          />
+          <link rel='canonical' href='/' />
+          <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+          <link rel='alternate icon' href='/favicon.ico' />
         </Head>
+
         <body>
           <Main />
           <NextScript />
+          <noscript
+            dangerouslySetInnerHTML={{
+              __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;" />`,
+            }}
+          />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default MyDocument
+export default MyDocument;

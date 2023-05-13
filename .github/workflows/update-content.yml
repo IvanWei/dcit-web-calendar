@@ -46,6 +46,16 @@ jobs:
         run: npm run build
         env:
           NEXT_PUBLIC_GTM_ID: GTM-TVJ8423
+      - uses: actions/cache@v3
+        # NOTE: https://nextjs.org/docs/pages/building-your-application/deploying/ci-build-caching#github-actions
+        name: Setup nextjs cache
+        with:
+          path: |
+            ~/.npm
+            ${{ github.workspace }}/.next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
       - name: Git clone gh-pages
         run: git clone git@github.com:IvanWei/dcit-web-calendar.git -b gh-pages
       - name: Deployment

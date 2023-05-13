@@ -14,9 +14,8 @@ export async function getStaticProps() {
   if (data) {
     events = data.filter(
       (event) =>
-        (event.startDate && new Date(event.startDate).getFullYear() >= new Date().getFullYear()) ||
-        (event.ticketStartTime &&
-          new Date(event.ticketStartTime).getFullYear() >= new Date().getFullYear()),
+        (event.endDate && new Date(event.endDate).getTime() >= Date.now()) ||
+        (event.ticketEndTime && new Date(event.ticketEndTime).getTime() >= Date.now()),
     );
   }
 
@@ -27,7 +26,7 @@ export async function getStaticProps() {
     // Next.js will attempt to re-generate the page:
     // - When a request comes in
     // - At most once every second
-    revalidate: 1, // In seconds
+    // revalidate: 1, // In seconds
   };
 }
 
@@ -42,7 +41,7 @@ function ActivityListPage({ events }) {
       </Head>
 
       <h1>Developer Conferences in Taiwan (List version)</h1>
-      <table className={TableStyle.table} itemScope itemType='https://schema.org/Event'>
+      <table className={TableStyle.table}>
         <thead>
           <tr>
             <th>Start date</th>
@@ -59,11 +58,13 @@ function ActivityListPage({ events }) {
             let link = event.name.link.source || '';
 
             return (
-              <tr key={index}>
+              <tr key={index} itemScope itemType='https://schema.org/Event'>
                 <td itemProp='startDate' content={format(new Date(event.startDate), 'yyyy-MM-dd')}>
                   {format(new Date(event.startDate), 'yyyy/MM/dd')}
                 </td>
-                <td itemProp='endDate'>{format(new Date(event.endDate), 'yyyy-MM-dd')}</td>
+                <td itemProp='endDate' content={format(new Date(event.endDate), 'yyyy-MM-dd')}>
+                  {format(new Date(event.endDate), 'yyyy/MM/dd')}
+                </td>
                 <td>
                   {(() => {
                     const isC4s = (event.name.link.title || '').includes('徵稿');
@@ -90,29 +91,29 @@ function ActivityListPage({ events }) {
                     );
                   })()}
                 </td>
-                <td itemProp='offers' itemScope itemType='https://schema.org/Offer'>
-                  {(() => {
-                    const now = Date.now();
-                    let ticketTitle = '';
+                {(() => {
+                  const now = Date.now();
+                  let ticketTitle = '';
 
-                    if (!event.ticket || event.ticket === '---') {
-                      return null;
-                    }
+                  if (!event.ticket || event.ticket === '---') {
+                    return <td></td>;
+                  }
 
-                    if (
-                      now >= new Date(event.ticketStartTime).getTime() &&
-                      now <= new Date(event.ticketEndTime).getTime() + 1
-                    ) {
-                      ticketTitle = 'Register Now';
-                    } else if (now < new Date(event.ticketStartTime).getTime()) {
-                      ticketTitle = 'Not Yet Started';
-                    } else if (now > new Date(event.ticketEndTime).getTime() + 1) {
-                      ticketTitle = 'End';
-                    } else {
-                      ticketTitle = 'NOT SURE';
-                    }
+                  if (
+                    now >= new Date(event.ticketStartTime).getTime() &&
+                    now <= new Date(event.ticketEndTime).getTime() + 1
+                  ) {
+                    ticketTitle = 'Register Now';
+                  } else if (now < new Date(event.ticketStartTime).getTime()) {
+                    ticketTitle = 'Not Yet Started';
+                  } else if (now > new Date(event.ticketEndTime).getTime() + 1) {
+                    ticketTitle = 'End';
+                  } else {
+                    ticketTitle = 'NOT SURE';
+                  }
 
-                    return (
+                  return (
+                    <td itemProp='offers' itemScope itemType='https://schema.org/Offer'>
                       <Link
                         itemProp='url'
                         style={{ textDecoration: 'none', color: '#0070ff' }}
@@ -122,9 +123,9 @@ function ActivityListPage({ events }) {
                       >
                         {ticketTitle}
                       </Link>
-                    );
-                  })()}
-                </td>
+                    </td>
+                  );
+                })()}
                 <td>
                   {(() => {
                     const now = Date.now();
@@ -158,8 +159,9 @@ function ActivityListPage({ events }) {
                     );
                   })()}
                 </td>
-                <td itemProp='location' itemScope itemType='https://schema.org/Place'>
-                  {event.venue.link.source !== 'https://maps.google.com/?q=' && (
+
+                {event.venue.link.source !== 'https://maps.google.com/?q=' ? (
+                  <td itemProp='location' itemScope itemType='https://schema.org/Place'>
                     <Link
                       itemProp='url'
                       style={{ textDecoration: 'none', color: '#0070ff' }}
@@ -167,8 +169,10 @@ function ActivityListPage({ events }) {
                       rel='noreferrer nofollow'
                       target='_blank'
                     >{`${event.oversea} ${event.venue.link.title}`}</Link>
-                  )}
-                </td>
+                  </td>
+                ) : (
+                  <td></td>
+                )}
               </tr>
             );
           })}

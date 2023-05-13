@@ -16,7 +16,7 @@ export async function getStaticProps() {
     // Next.js will attempt to re-generate the page:
     // - When a request comes in
     // - At most once every second
-    revalidate: 1, // In seconds
+    // revalidate: 1, // In seconds
   };
 }
 
@@ -31,7 +31,7 @@ function HomePage({ data }) {
 
       <h1>活動組織列表 List of organization</h1>
 
-      <table className={TableStyle.table} itemScope itemType='https://schema.org/Organization'>
+      <table className={TableStyle.table}>
         <thead>
           <tr>
             <th>Name</th>
@@ -42,21 +42,8 @@ function HomePage({ data }) {
         <tbody>
           {data.map((orgData, index) => {
             return (
-              <tr key={index}>
+              <tr key={index} itemScope itemType='https://schema.org/Organization'>
                 <td itemProp='legalName'>{orgData.Name}</td>
-                <td>
-                  {orgData.Facebook.link.source && (
-                    <Link
-                      itemProp='url'
-                      style={{ textDecoration: 'none', color: '#0070ff' }}
-                      href={orgData.Facebook.link.source}
-                      rel='noreferrer nofollow'
-                      target='_blank'
-                    >
-                      {orgData.Facebook.link.title}
-                    </Link>
-                  )}
-                </td>
                 <td>
                   {orgData['Main Website'].link.source && (
                     <Link
@@ -67,6 +54,19 @@ function HomePage({ data }) {
                       target='_blank'
                     >
                       {orgData['Main Website'].link.title}
+                    </Link>
+                  )}
+                </td>
+                <td>
+                  {orgData.Facebook.link.source && (
+                    <Link
+                      itemProp='url'
+                      style={{ textDecoration: 'none', color: '#0070ff' }}
+                      href={orgData.Facebook.link.source}
+                      rel='noreferrer nofollow'
+                      target='_blank'
+                    >
+                      {orgData.Facebook.link.title}
                     </Link>
                   )}
                 </td>

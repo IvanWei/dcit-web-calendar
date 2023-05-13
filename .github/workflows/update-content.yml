@@ -45,7 +45,7 @@ jobs:
       - name: Create html page
         run: npm run build
         env:
-          NEXT_PUBLIC_GTM_ID: ${{ vars.NEXT_PUBLIC_GTM_ID }}
+          NEXT_PUBLIC_GTM_ID: GTM-TVJ8423
       - name: Git clone gh-pages
         run: git clone git@github.com:IvanWei/dcit-web-calendar.git -b gh-pages
       - name: Deployment

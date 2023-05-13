@@ -26,7 +26,9 @@
   "homepage": "https://github.com/IvanWei/dcit-web-calendar#readme",
   "devDependencies": {
     "eslint": "8.38.0",
-    "eslint-config-next": "13.3.0"
+    "eslint-config-next": "13.3.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1"
   },
   "dependencies": {
     "date-fns": "^2.30.0",

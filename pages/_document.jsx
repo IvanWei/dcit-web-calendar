@@ -14,7 +14,7 @@ class MyDocument extends Document {
             name='description'
             content='This records are Developer, DevOps, Design and etc. Conferences In Taiwan and the world.'
           />
-          <link rel='canonical' href='/' />
+          <link rel='canonical' href='https://dcit.ivanwei.co' />
           <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
           <link rel='alternate icon' href='/favicon.ico' />
         </Head>

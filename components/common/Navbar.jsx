@@ -28,11 +28,11 @@ const Navbar = () => {
       <Link
         className={LinkStyle.link}
         style={{ background: 'rgb(223, 117, 20)' }}
-        href='https://github.com/IvanWei/developer-conferences-in-taiwan/blob/master/data/list-of-organizations.json'
+        href='https://github.com/IvanWei/developer-conferences-in-taiwan/wiki'
         target='_blank'
-        rel='ugc nofollow'
+        rel='ugc external nofollow'
       >
-        新增活動組織
+        About DCIT
       </Link>
     </nav>
   );

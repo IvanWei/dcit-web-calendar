@@ -44,6 +44,8 @@ function HomePage(props) {
     <>
       <Head>
         <title>DCIT 行事曆 (Calendar version)</title>
+        <meta property='og:title' content='DCIT 行事曆 (Calendar version)' />
+        <meta property='og:url' content='https://dcit.ivanwei.co/calendar' />
       </Head>
       <h1>Developer Conferences in Taiwan (Calendar version)</h1>
 

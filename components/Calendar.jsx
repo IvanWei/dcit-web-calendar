@@ -61,10 +61,9 @@ export async function getStaticProps() {
 
 const LinkComponent = (props) => {
   if (typeof props.data === 'string') {
-    if (props.data === '---') {
-      return props.data;
+    if (!props.data || props.data === '---') {
+      return 'Unknown';
     } else {
-      return null;
       return (
         <Link
           style={{ textDecoration: 'none', color: '#0070ff' }}
@@ -129,35 +128,35 @@ const MyCalendar = (props) => {
                   <span style={{ marginRight: 10 }}>{evt.resource.oversea}</span>
                   <LinkComponent data={evt.resource.venue} />
                 </div>
-                <div>
-                  售票連結：
-                  <LinkComponent data={evt.resource.ticket} />
-                </div>
-                <div>
-                  售票日期：
-                  {(() => {
-                    if (evt.resource.ticket === '---') {
+                {!evt.title.includes('徵稿') && <>
+                  <div>
+                    售票連結：
+                    <LinkComponent data={evt.resource.ticket} />
+                  </div>
+                  <div>
+                    售票日期：
+                    {(() => {
+                      if (evt.resource.ticket === '---') {
+                        return '---';
+                      }
+                      if (evt.resource.ticketStartTime) {
+                        const { ticketStartTime, ticketEndTime } = evt.resource;
+
+                        return `${format(new Date(ticketStartTime), 'yyyy/MM/dd')} - ${format(
+                          new Date(ticketEndTime),
+                          'yyyy/MM/dd',
+                        )}`;
+                      }
+
                       return '---';
-                    }
-                    if (evt.resource.ticketStartTime) {
-                      const { ticketStartTime, ticketEndTime } = evt.resource;
-
-                      return `${format(new Date(ticketStartTime), 'yyyy/MM/dd')} - ${format(
-                        new Date(ticketEndTime),
-                        'yyyy/MM/dd',
-                      )}`;
-                    }
-
-                    return '---';
-                  })()}
-                </div>
-                {evt.title.indexOf('徵稿') > -1 && (
+                    })()}
+                  </div>
+                </>}
+                {evt.title.includes('徵稿') && <>
                   <div>
                     徵稿連結：
                     <LinkComponent data={evt.resource.callForSpeaker} />
                   </div>
-                )}
-                {evt.title.indexOf('徵稿') > -1 && (
                   <div>
                     徵稿日期：
                     {`${format(new Date(evt.start), 'yyyy/MM/dd')} - ${format(
@@ -165,7 +164,7 @@ const MyCalendar = (props) => {
                       'yyyy/MM/dd',
                     )}`}
                   </div>
-                )}
+                </>}
               </div>
             ),
           });

@@ -6,7 +6,7 @@ DCIT-Calendar is calendar version with DCIT. This data gets [Google sheet](https
 
 ## Badges
 
-![GitHub Workflow Status](https://github.com/ivanwei/dcit-web-calendar/actions/workflows/Update%20HTML%20content/badge.svg)
+![GitHub Workflow Status](https://github.com/ivanwei/dcit-web-calendar/actions/workflows/update-content.yml/badge.svg)
 
 ## Installation
 

@@ -109,7 +109,7 @@ function ActivityListPage({ events }) {
                     } else if (now > new Date(event.ticketEndTime).getTime() + 1) {
                       ticketTitle = 'End';
                     } else {
-                      ticketTitle = 'NOT SURE';
+                      ticketTitle = 'UNKNOWN';
                     }
 
                     return (

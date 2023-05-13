@@ -24,7 +24,9 @@ function HomePage({ data }) {
   return (
     <>
       <Head>
-        <title>DCIT 列管的活動組織</title>
+        <title>DCIT 登記在冊的活動組織</title>
+        <meta property='og:title' content='DCIT 登記在冊的活動組織' />
+        <meta property='og:url' content='https://dcit.ivanwei.co/organizations' />
       </Head>
 
       <h1>活動組織列表 List of organization</h1>

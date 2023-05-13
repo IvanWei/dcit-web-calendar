@@ -36,8 +36,9 @@ function ActivityListPage({ events }) {
     <>
       <Head>
         <title>DCIT 行事曆 (List version)</title>
-        <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <meta property='og:title' content='DCIT 行事曆 (List version)' />
+        <meta property='og:type' content='video.movie' />
+        <meta property='og:url' content='https://dcit.ivanwei.co' />
       </Head>
 
       <h1>Developer Conferences in Taiwan (List version)</h1>
@@ -59,10 +60,10 @@ function ActivityListPage({ events }) {
 
             return (
               <tr key={index}>
-                <td itemProp='startDate' content={format(new Date(event.startDate), 'yyyy/MM/dd')}>
+                <td itemProp='startDate' content={format(new Date(event.startDate), 'yyyy-MM-dd')}>
                   {format(new Date(event.startDate), 'yyyy/MM/dd')}
                 </td>
-                <td itemProp='endDate'>{format(new Date(event.endDate), 'yyyy/MM/dd')}</td>
+                <td itemProp='endDate'>{format(new Date(event.endDate), 'yyyy-MM-dd')}</td>
                 <td>
                   {(() => {
                     const isC4s = (event.name.link.title || '').includes('徵稿');
@@ -158,7 +159,9 @@ function ActivityListPage({ events }) {
                   })()}
                 </td>
                 <td itemProp='location' itemScope itemType='https://schema.org/Place'>
-                  {/*<Link itemProp='url' style={{textDecoration: 'none', color: '#0070ff'}} href={event.venue.link.source} rel='noreferrer nofollow' target='_blank'>{`${event.oversea} ${event.venue.link.title}`}</Link>*/}
+                  {event.venue.link.source !== 'https://maps.google.com/?q=' &&
+                  <Link itemProp='url' style={{textDecoration: 'none', color: '#0070ff'}} href={event.venue.link.source} rel='noreferrer nofollow' target='_blank'>{`${event.oversea} ${event.venue.link.title}`}</Link>
+                  }
                 </td>
               </tr>
             );

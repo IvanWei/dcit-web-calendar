@@ -7,7 +7,8 @@
     "dev": "next dev -p 8080",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --fix"
+    "lint": "next lint --fix",
+    "postbuild": "next-sitemap"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
   "dependencies": {
     "date-fns": "^2.30.0",
     "next": "^13.4.1",
+    "next-sitemap": "^4.0.9",
     "react": "^18.2.0",
     "react-big-calendar": "^1.6.9",
     "react-dom": "^18.2.0",

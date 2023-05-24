@@ -1,11 +1,14 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import LinkStyle from '../stylesheet/Link.module.css';
+
+import feedImg from '../../public/feed-icon.png';
 
 const Navbar = () => {
   const thisYear = new Date().getFullYear();
 
   return (
-    <nav>
+    <nav style={{ display: 'flex' }}>
       <Link
         className={LinkStyle.link}
         style={{ background: 'rgb(28, 184, 65)' }}
@@ -33,6 +36,16 @@ const Navbar = () => {
         rel='ugc external nofollow'
       >
         About DCIT
+      </Link>
+      <Link
+        className={LinkStyle.link}
+        style={{ padding: 0, maxHeight: '32.5px' }}
+        href='/rss.xml'
+        target='_blank'
+        rel='ugc external nofollow'
+      >
+        <Image src={feedImg.src} width={32.5} height={32.5} alt='atom feed' />
+        {/*RSS*/}
       </Link>
     </nav>
   );

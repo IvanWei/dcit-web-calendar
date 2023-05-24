@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Calendar, dateFnsLocalizer } from 'react-big-calendar';
 import format from 'date-fns/format';
+import { formatInTimeZone } from 'date-fns-tz';
 import parse from 'date-fns/parse';
 import startOfWeek from 'date-fns/startOfWeek';
 import getDay from 'date-fns/getDay';
@@ -21,43 +22,6 @@ const localizer = dateFnsLocalizer({
   getDay,
   locales,
 });
-
-export async function getStaticProps() {
-  const res = await fetch(
-    'https://script.google.com/macros/s/AKfycbxeVoHvVLXtQnHxsBIb9oUbwFoRrmg5L9_Hie6feqEhIRdoYk4/exec?type=api',
-  );
-  const { data } = await res.json();
-
-  let events = [];
-
-  if (data) {
-    events = data.map((event) => ({
-      title: typeof event.name === 'string' ? event.name : event.name.link.title,
-      start: event.startDate,
-      end: event.endDate,
-      resource: {
-        flag: event.flag,
-        link: typeof event.name === 'string' ? null : event.name.link.source,
-        oversea: event.oversea,
-        venue: event.venue,
-        callForSpeaker: event.callForSpeaker,
-        ticket: event.ticket,
-        ticketStartTime: event.ticketStartTime,
-        ticketEndTime: event.ticketEndTime,
-      },
-    }));
-  }
-
-  return {
-    props: {
-      events,
-    },
-    // Next.js will attempt to re-generate the page:
-    // - When a request comes in
-    // - At most once every second
-    revalidate: 1, // In seconds
-  };
-}
 
 const LinkComponent = (props) => {
   if (typeof props.data === 'string') {
@@ -143,8 +107,13 @@ const MyCalendar = (props) => {
                         if (evt.resource.ticketStartTime) {
                           const { ticketStartTime, ticketEndTime } = evt.resource;
 
-                          return `${format(new Date(ticketStartTime), 'yyyy/MM/dd')} - ${format(
+                          return `${formatInTimeZone(
+                            new Date(ticketStartTime),
+                            'Asia/Taipei',
+                            'yyyy/MM/dd',
+                          )} - ${formatInTimeZone(
                             new Date(ticketEndTime),
+                            'Asia/Taipei',
                             'yyyy/MM/dd',
                           )}`;
                         }
@@ -162,10 +131,11 @@ const MyCalendar = (props) => {
                     </div>
                     <div>
                       徵稿日期：
-                      {`${format(new Date(evt.start), 'yyyy/MM/dd')} - ${format(
-                        new Date(evt.end),
+                      {`${formatInTimeZone(
+                        new Date(evt.start),
+                        'Asia/Taipei',
                         'yyyy/MM/dd',
-                      )}`}
+                      )} - ${formatInTimeZone(new Date(evt.end), 'Asia/Taipei', 'yyyy/MM/dd')}`}
                     </div>
                   </>
                 )}

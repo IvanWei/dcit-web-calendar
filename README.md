@@ -1,8 +1,8 @@
-# DCIT-Calendar
+# DCIT Calendar (aka DCIT 行事曆, Developer Conference In Taiwan)
 
 ## Description
 
-DCIT-Calendar is calendar version with DCIT. This data gets [Google sheet](https://go.ivanwei.co/dcit-data-google-sheet) via [dcit-gsa](https://github.com/IvanWei/dcit-gas).
+DCIT Calendar records conferences' informations. This data gets [Google sheet](https://go.ivanwei.co/dcit-data-google-sheet) via [dcit-gsa](https://github.com/IvanWei/dcit-gas).
 
 ## Badges
 
@@ -11,7 +11,7 @@ DCIT-Calendar is calendar version with DCIT. This data gets [Google sheet](https
 ## Installation
 
 ```bash
-pnpmyarn install
+pnpm install
 ```
 
 ## Usage

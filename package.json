@@ -3,11 +3,14 @@
   "version": "0.0.0",
   "description": "Developer Conferences In Taiwan",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "next dev -p 8080",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --fix"
+    "lint": "next lint --fix",
+    "postbuild": "next-sitemap && npm run rss",
+    "rss": "node ./libs/generateRSS.mjs > ./public/rss.xml"
   },
   "repository": {
     "type": "git",
@@ -15,8 +18,11 @@
   },
   "keywords": [
     "dcit",
-    "web",
-    "calendar"
+    "developer",
+    "calendar",
+    "conference",
+    "taiwan",
+    "行事曆"
   ],
   "author": "Wei Hong-Lin <scorpionseed@gmail.com>",
   "license": "MIT",
@@ -32,10 +38,14 @@
   },
   "dependencies": {
     "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "feed": "^4.2.2",
     "next": "^13.4.1",
+    "next-sitemap": "^4.0.9",
     "react": "^18.2.0",
     "react-big-calendar": "^1.6.9",
     "react-dom": "^18.2.0",
+    "sharp": "^0.32.1",
     "sweetalert2": "^11.7.5",
     "sweetalert2-react-content": "^5.0.7"
   }

@@ -1,11 +1,14 @@
 import Head from 'next/head';
+import Script from 'next/script';
 import Link from 'next/link';
-import format from 'date-fns/format';
+import { formatInTimeZone as format } from 'date-fns-tz';
 import TableStyle from '../components/stylesheet/Table.module.css';
+
+import generateEventJSONLD from '../libs/generateEventJSONLD';
 
 export async function getStaticProps() {
   const res = await fetch(
-    'https://script.google.com/macros/s/AKfycbxeVoHvVLXtQnHxsBIb9oUbwFoRrmg5L9_Hie6feqEhIRdoYk4/exec?type=api',
+    'https://script.google.com/macros/s/AKfycbz2W1KYb1VKgxcBOhKoBYZ_V93CNmdAxHBx_HExjLCBU9Aow6kQvo8c-EUXJqJGg6lm/exec?type=api',
   );
   const { data } = await res.json();
 
@@ -15,7 +18,9 @@ export async function getStaticProps() {
     events = data.filter(
       (event) =>
         (event.endDate && new Date(event.endDate).getTime() >= Date.now()) ||
-        (event.ticketEndTime && new Date(event.ticketEndTime).getTime() >= Date.now()),
+        (!event.name.link.title?.includes('[徵稿]') &&
+          event.ticketEndTime &&
+          new Date(event.ticketEndTime).getTime() >= Date.now()),
     );
   }
 
@@ -36,7 +41,6 @@ function ActivityListPage({ events }) {
       <Head>
         <title>DCIT 行事曆 (List version)</title>
         <meta property='og:title' content='DCIT 行事曆 (List version)' />
-        <meta property='og:type' content='video.movie' />
         <meta property='og:url' content='https://dcit.ivanwei.co' />
       </Head>
 
@@ -52,6 +56,13 @@ function ActivityListPage({ events }) {
             <th>Venue</th>
           </tr>
         </thead>
+        <Script
+          id='ldjson'
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateEventJSONLD(events), null, '\t'),
+          }}
+        />
         <tbody>
           {events.map((event, index) => {
             const isC4s = (event.name.link.title || '').includes('徵稿');
@@ -59,11 +70,17 @@ function ActivityListPage({ events }) {
 
             return (
               <tr key={index} itemScope itemType='https://schema.org/Event'>
-                <td itemProp='startDate' content={format(new Date(event.startDate), 'yyyy-MM-dd')}>
-                  {format(new Date(event.startDate), 'yyyy/MM/dd')}
+                <td
+                  itemProp='startDate'
+                  content={format(new Date(event.startDate), 'Asia/Taipei', 'yyyy-MM-dd')}
+                >
+                  {format(new Date(event.startDate), 'Asia/Taipei', 'yyyy/MM/dd')}
                 </td>
-                <td itemProp='endDate' content={format(new Date(event.endDate), 'yyyy-MM-dd')}>
-                  {format(new Date(event.endDate), 'yyyy/MM/dd')}
+                <td
+                  itemProp='endDate'
+                  content={format(new Date(event.endDate), 'Asia/Taipei', 'yyyy-MM-dd')}
+                >
+                  {format(new Date(event.endDate), 'Asia/Taipei', 'yyyy/MM/dd')}
                 </td>
                 <td>
                   {(() => {

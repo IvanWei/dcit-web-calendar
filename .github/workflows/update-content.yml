@@ -45,7 +45,8 @@ jobs:
       - name: Create html page
         run: npm run build
         env:
-          NEXT_PUBLIC_GTM_ID: GTM-TVJ8423
+          NEXT_PUBLIC_GTM_ID: ${{ vars.NEXT_PUBLIC_GTM_ID }}
+          SITE_URL: ${{ vars.SITE_URL }}
       - uses: actions/cache@v3
         # NOTE: https://nextjs.org/docs/pages/building-your-application/deploying/ci-build-caching#github-actions
         name: Setup nextjs cache

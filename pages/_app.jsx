@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Head from 'next/head';
 import Router from 'next/router';
 import Script from 'next/script';
 import Navbar from '../components/common/Navbar';
@@ -22,6 +23,10 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <meta property='og:type' content='website' />
+      </Head>
       <Script id='google-tag-manager' strategy='afterInteractive'>
         {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

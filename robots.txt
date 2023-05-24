@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dcit.ivanwei.co
+
+# Sitemaps
+Sitemap: https://dcit.ivanwei.co/sitemap.xml

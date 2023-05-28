@@ -26,7 +26,7 @@ const localizer = dateFnsLocalizer({
 const LinkComponent = (props) => {
   if (typeof props.data === 'string') {
     if (!props.data || props.data === '---') {
-      return 'Unknown';
+      return <div>Unknown</div>;
     } else {
       return (
         <Link

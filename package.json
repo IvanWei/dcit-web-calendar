@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint --fix",
     "postbuild": "next-sitemap --config ./next-sitemap.config.mjs && npm run rss",
-    "rss": "node ./libs/generateRSS.mjs > ./out/rss.xml"
+    "rss": "node ./lib/generateRSS.mjs > ./out/rss.xml"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/IvanWei/dcit-web-calendar#readme",
   "devDependencies": {
+    "@types/node": "20.2.5",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "eslint-config-prettier": "^8.8.0",

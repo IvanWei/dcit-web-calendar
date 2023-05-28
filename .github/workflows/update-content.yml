@@ -41,7 +41,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
       - name: Install Node.js packages
-        run: pnpm install --frozen-lockfile --prod
+        run: pnpm install --frozen-lockfile
       - name: Create html page
         run: npm run build
         env:

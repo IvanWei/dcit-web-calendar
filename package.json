@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint --fix",
     "postbuild": "next-sitemap --config ./next-sitemap.config.mjs && npm run rss",
-    "rss": "node ./libs/generateRSS.mjs > ./out/rss.xml"
+    "rss": "node ./lib/generateRSS.mjs > ./out/rss.xml"
   },
   "repository": {
     "type": "git",

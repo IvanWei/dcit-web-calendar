@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { formatInTimeZone as format } from 'date-fns-tz';
 import TableStyle from '../components/stylesheet/Table.module.css';
 
-import generateEventJSONLD from '../libs/generateEventJSONLD';
+import generateEventJSONLD from '../lib/generateEventJSONLD.mjs';
 
 export async function getStaticProps() {
   const res = await fetch(

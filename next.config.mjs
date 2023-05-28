@@ -1,5 +1,5 @@
 export default {
-  output: (process.env.NODE_ENV === 'development'?'standalone':'export'),
+  // output: (process.env.NODE_ENV === 'development'?'standalone':'export'),
   poweredByHeader: false,
   reactStrictMode: true,
   // i18n: {

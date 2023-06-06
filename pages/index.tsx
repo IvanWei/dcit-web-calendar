@@ -69,17 +69,11 @@ function ActivityListPage({ events }) {
             let link = event.name.link.source || '';
 
             return (
-              <tr key={index} itemScope itemType='https://schema.org/Event'>
-                <td
-                  itemProp='startDate'
-                  content={format(new Date(event.startDate), 'Asia/Taipei', 'yyyy-MM-dd')}
-                >
+              <tr key={index}>
+                <td>
                   {format(new Date(event.startDate), 'Asia/Taipei', 'yyyy/MM/dd')}
                 </td>
-                <td
-                  itemProp='endDate'
-                  content={format(new Date(event.endDate), 'Asia/Taipei', 'yyyy-MM-dd')}
-                >
+                <td>
                   {format(new Date(event.endDate), 'Asia/Taipei', 'yyyy/MM/dd')}
                 </td>
                 <td>
@@ -97,13 +91,12 @@ function ActivityListPage({ events }) {
 
                     return (
                       <Link
-                        itemProp='url'
                         style={{ textDecoration: 'none', color: '#0070ff' }}
                         href={link}
                         rel='noreferrer nofollow'
                         target='_blank'
                       >
-                        <span itemProp='name'>{event.name.link.title}</span>
+                        <span >{event.name.link.title}</span>
                       </Link>
                     );
                   })()}
@@ -130,9 +123,8 @@ function ActivityListPage({ events }) {
                   }
 
                   return (
-                    <td itemProp='offers' itemScope itemType='https://schema.org/Offer'>
+                    <td>
                       <Link
-                        itemProp='url'
                         style={{ textDecoration: 'none', color: '#0070ff' }}
                         href={event.ticket}
                         rel='noreferrer nofollow'
@@ -178,9 +170,8 @@ function ActivityListPage({ events }) {
                 </td>
 
                 {event.venue.link.source !== 'https://maps.google.com/?q=' ? (
-                  <td itemProp='location' itemScope itemType='https://schema.org/Place'>
+                  <td>
                     <Link
-                      itemProp='url'
                       style={{ textDecoration: 'none', color: '#0070ff' }}
                       href={event.venue.link.source}
                       rel='noreferrer nofollow'

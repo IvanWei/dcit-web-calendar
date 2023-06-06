@@ -3,4 +3,5 @@ export default {
   generateRobotsTxt: true,
   outDir: './out',
   sitemapSize: 7000,
+  generateIndexSitemap: false,
 }

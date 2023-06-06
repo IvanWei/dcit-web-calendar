@@ -70,12 +70,8 @@ function ActivityListPage({ events }) {
 
             return (
               <tr key={index}>
-                <td>
-                  {format(new Date(event.startDate), 'Asia/Taipei', 'yyyy/MM/dd')}
-                </td>
-                <td>
-                  {format(new Date(event.endDate), 'Asia/Taipei', 'yyyy/MM/dd')}
-                </td>
+                <td>{format(new Date(event.startDate), 'Asia/Taipei', 'yyyy/MM/dd')}</td>
+                <td>{format(new Date(event.endDate), 'Asia/Taipei', 'yyyy/MM/dd')}</td>
                 <td>
                   {(() => {
                     const isC4s = (event.name.link.title || '').includes('徵稿');
@@ -96,7 +92,7 @@ function ActivityListPage({ events }) {
                         rel='noreferrer nofollow'
                         target='_blank'
                       >
-                        <span >{event.name.link.title}</span>
+                        <span>{event.name.link.title}</span>
                       </Link>
                     );
                   })()}

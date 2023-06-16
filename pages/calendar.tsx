@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Calendar from '../components/Calendar';
+import { useState } from 'react';
 
 export async function getStaticProps() {
   const res = await fetch(
@@ -40,6 +41,20 @@ export async function getStaticProps() {
 }
 
 function HomePage(props) {
+
+  const [filteredEvents, setFilteredEvents] = useState(props.events);
+
+  // Function to handle filtering based on user input or conditions
+  const handleFilter = (filterValue) => {
+    // Perform filtering logic here based on your requirements
+    const filtered = props.events.filter((event) => {
+      // Example: Filtering based on the event title containing the filterValue
+      return event.title.toLowerCase().includes(filterValue.toLowerCase());
+    });
+
+    setFilteredEvents(filtered);
+  };
+
   return (
     <>
       <Head>
@@ -48,8 +63,13 @@ function HomePage(props) {
         <meta property='og:url' content='https://dcit.ivanwei.co/calendar' />
       </Head>
       <h1>Developer Conferences in Taiwan (Calendar version)</h1>
+      <input
+        type='text'
+        placeholder='Search events...'
+        onChange={(e) => handleFilter(e.target.value)}
+      />
 
-      <Calendar events={props.events} style='margin-top: 100px;' />
+      <Calendar events={filteredEvents} style='margin-top: 100px;' />
     </>
   );
 }

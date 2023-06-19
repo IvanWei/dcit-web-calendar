@@ -9,8 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "npm run lint:ts && npm run lint:css",
-    "lint:ts:": "next lint",
-    "lint:css": "stylelint \"**/*.css\"",
+    "lint:ts": "next lint",
+    "lint:css": "stylelint \"**/*.css\" --fix",
     "lint:fix": "next lint --fix && stylelint \"**/*.css\" --fix",
     "postbuild": "next-sitemap --config ./next-sitemap.config.mjs && npm run rss",
     "rss": "node ./lib/generateRSS.mjs > ./out/rss.xml",
@@ -42,7 +42,8 @@
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
     "stylelint": "^15.8.0",
-    "stylelint-config-recommended": "^12.0.0"
+    "stylelint-config-recommended": "^12.0.0",
+    "stylelint-prettier": "^3.0.0"
   },
   "dependencies": {
     "date-fns": "^2.30.0",

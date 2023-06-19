@@ -1,53 +1,58 @@
 .table {
   width: 750px;
   border-collapse: collapse;
-  margin:50px auto;
-  }
+  margin: 50px auto;
+}
 
 /* Zebra striping */
 .table tr:nth-of-type(odd) {
   background: #eee;
-  }
+}
 
 .table th {
   background: #3498db;
   color: white;
   font-weight: bold;
-  }
+}
 
-.table td, .table th {
+.table td,
+.table th {
   padding: 10px;
   border: 1px solid #ccc;
   text-align: left;
   font-size: 18px;
-  }
+}
 
 /*
 Max width before this PARTICULAR table gets nasty
 This query will take effect for any screen smaller than 760px
 and also iPads specifically.
 */
-@media
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
-
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
   .table {
-      width: 100%;
+    width: 100%;
   }
 
   /* Force table to not be like tables anymore */
-  .table, .table thead, .table tbody, .table th, .table td, .table tr {
+  .table,
+  .table thead,
+  .table tbody,
+  .table th,
+  .table td,
+  .table tr {
     display: block;
   }
 
   /* Hide table headers (but not display: none;, for accessibility) */
+  .table tr {
+    border: 1px solid #ccc;
+  }
   .table thead .table tr {
     position: absolute;
     top: -9999px;
     left: -9999px;
   }
-
-  .table tr { border: 1px solid #ccc; }
 
   .table td {
     /* Behave  like a "row" */
@@ -72,5 +77,4 @@ only screen and (max-width: 760px),
     color: #000;
     font-weight: bold;
   }
-
 }

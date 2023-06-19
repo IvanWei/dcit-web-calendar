@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "npm run lint:ts && npm run lint:css",
     "lint:ts": "next lint",
-    "lint:css": "stylelint \"**/*.css\" --fix",
+    "lint:css": "stylelint \"**/*.css\"",
     "lint:fix": "next lint --fix && stylelint \"**/*.css\" --fix",
     "postbuild": "next-sitemap --config ./next-sitemap.config.mjs && npm run rss",
     "rss": "node ./lib/generateRSS.mjs > ./out/rss.xml",

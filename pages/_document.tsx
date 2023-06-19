@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 const description =
   'DCIT 行事曆記錄著與開發、維運、設計有關的研討會資訊。This records are Developer, DevOps, Design and etc. Conferences In Taiwan and the world.';
@@ -6,6 +6,7 @@ const description =
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
+
     return { ...initialProps };
   }
 

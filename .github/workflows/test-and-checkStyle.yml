@@ -1,7 +1,7 @@
 # https://github.com/orgs/community/discussions/26323
 name: Test and check styles
 on:
-  pull:
+  push:
     branches: [ master ]
   pull_request:
     types:

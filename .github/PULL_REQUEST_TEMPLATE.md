@@ -41,6 +41,6 @@ Issue Number: N/A
 ## Other information
 
 
-## Reference
+<!-- ## Reference -->
 
-[Angular](https://github.com/angular/angular/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+<!-- [Angular](https://github.com/angular/angular/blob/main/.github/PULL_REQUEST_TEMPLATE.md) -->

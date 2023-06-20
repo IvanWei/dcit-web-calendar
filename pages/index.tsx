@@ -66,7 +66,6 @@ function ActivityListPage({ events }) {
         <tbody>
           {events.map((event, index) => {
             const isC4s = (event.name.link.title || '').includes('徵稿');
-            let link = event.name.link.source || '';
 
             return (
               <tr key={index}>
@@ -134,7 +133,6 @@ function ActivityListPage({ events }) {
                 <td>
                   {(() => {
                     const now = Date.now();
-                    const link = isC4s ? event.callForSpeaker : '---';
                     let c4sTitle = '';
 
                     if (!isC4s) {

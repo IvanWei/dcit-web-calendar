@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Router from 'next/router';
 import Script from 'next/script';
@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }) {
     Router.events.on('routeChangeStart', () => setLoading(true));
     Router.events.on('routeChangeComplete', () => setLoading(false));
     Router.events.on('routeChangeError', () => setLoading(false));
+
     return () => {
       Router.events.off('routeChangeStart', () => setLoading(true));
       Router.events.off('routeChangeComplete', () => setLoading(false));

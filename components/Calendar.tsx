@@ -144,7 +144,7 @@ const MyCalendar = (props) => {
         });
       }}
       style={{ height: '95vh', marginTop: '20px' }}
-      onSelectSlot={({ start, end }) => {}}
+      // onSelectSlot={({ start, end }) => {}}
       // eventPropGetter={}
     />
   );

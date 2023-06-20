@@ -1,14 +1,9 @@
 # https://github.com/orgs/community/discussions/26323
 name: Update HTML content
 on:
-  # pull_request:
-  #   types:
-  #     - opened
-  #     - reopened
-  #   branches: [ master ]
   schedule:
     - cron: '0 0/1 * * *'
-  # repository_dispatch:
+  repository_dispatch:
   workflow_dispatch:
 
 jobs:

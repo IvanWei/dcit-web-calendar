@@ -9,5 +9,7 @@ export default {
   images: {
     unoptimized: true,
   },
-  ignoreDuringBuilds: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }

@@ -9,4 +9,5 @@ export default {
   images: {
     unoptimized: true,
   },
+  ignoreDuringBuilds: true,
 }

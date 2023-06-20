@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import Link from 'next/link';
-import { useState } from 'react';
+import { useState, ChangeEvent, MouseEventHandler } from 'react';
 import Calendar from '../components/Calendar';
 import SearchIconStyle from '../components/stylesheet/icons/Search.module.css';
 import InputStyle from '../components/stylesheet/Input.module.css';
+import LinkStyle from '../components/stylesheet/Link.module.css';
 
 export async function getStaticProps() {
   const res = await fetch(
@@ -43,19 +43,20 @@ export async function getStaticProps() {
 }
 
 function CalendarPage(props) {
+  const [searchKeyword, setSearchKeyword] = useState<string>('');
   const [filteredEvents, setFilteredEvents] = useState([...props.events]);
 
-  function handleFilter(evt) {
-    evt.preventDefault();
-
-    const searchForm = new FormData(evt.target);
-    const { search: filterValue } = Object.fromEntries(searchForm);
-
+  function handleFilter(filterValue: string) {
     const filtered = props.events.filter((event) => {
       return event.title.toLowerCase().includes(filterValue.toLowerCase());
     });
 
     setFilteredEvents(filtered);
+  }
+
+  function handleClearFilter() {
+    setSearchKeyword('');
+    setFilteredEvents(props.events);
   }
 
   return (
@@ -67,15 +68,40 @@ function CalendarPage(props) {
       </Head>
       <h1>Developer Conferences in Taiwan (Calendar version)</h1>
 
-      <form className={[InputStyle['pure-form']]} onSubmit={handleFilter}>
+      <form
+        className={[InputStyle['pure-form']].toString()}
+        onSubmit={(evt) => {
+          evt.preventDefault();
+        }}
+      >
         <fieldset style={{ border: 0 }}>
-          <i className={[SearchIconStyle['gg-search']]}></i>
+          <i className={[SearchIconStyle['gg-search']].toString()}></i>
           <input
             type='text'
             name='search'
             placeholder='Search events...'
+            value={searchKeyword}
             style={{ paddingLeft: '2em', marginLeft: '-1.5em' }}
+            onChange={(evt: ChangeEvent<HTMLInputElement>) => {
+              evt.preventDefault();
+
+              const filterValue: string = evt.target.value.trim();
+
+              setSearchKeyword(filterValue);
+              handleFilter(filterValue);
+            }}
           />
+          <button
+            type='button'
+            className={LinkStyle.link}
+            style={{ background: 'rgb(158, 128, 128)', border: 0 }}
+            onClick={(evt: MouseEventHandler<HTMLButtonElement>) => {
+              evt.preventDefault();
+              handleClearFilter();
+            }}
+          >
+            顯示全部
+          </button>
         </fieldset>
       </form>
       <Calendar events={filteredEvents} style='margin-top: 100px;' />

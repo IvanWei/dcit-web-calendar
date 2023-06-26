@@ -1,9 +1,6 @@
 # https://github.com/orgs/community/discussions/26323
 name: Update HTML content
 on:
-  schedule:
-    - cron: '0 0/1 * * *'
-  repository_dispatch:
   workflow_dispatch:
 
 jobs:

@@ -145,7 +145,7 @@ const MyCalendar = (props) => {
       }}
       style={{ height: '95vh', marginTop: '20px' }}
       // onSelectSlot={({ start, end }) => {}}
-      // eventPropGetter={}
+      eventPropGetter={() => ({style:{backgroundColor: `#${Math.floor(Math.random()*16777215).toString(16)}`}})}
     />
   );
 };

@@ -1,4 +1,4 @@
-import {Metadata} from 'next';
+import { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 import { formatInTimeZone as format } from 'date-fns-tz';
@@ -32,7 +32,7 @@ async function ActivityListPage() {
 
   return (
     <>
-      <h1 style={{display: 'none'}}>Developer Conferences in Taiwan (List version)</h1>
+      <h1 style={{ display: 'none' }}>Developer Conferences in Taiwan (List version)</h1>
       <table className={TableStyle.table}>
         <thead>
           <tr>
@@ -172,7 +172,8 @@ async function ActivityListPage() {
   );
 }
 
-const description:string ='DCIT 行事曆記錄著與開發、維運、設計有關的研討會資訊。This records are Developer, DevOps, Design and etc. Conferences In Taiwan and the world.';
+const description =
+  'DCIT 行事曆記錄著與開發、維運、設計有關的研討會資訊。This records are Developer, DevOps, Design and etc. Conferences In Taiwan and the world.';
 
 export const metadata: Metadata = {
   title: 'DCIT 行事曆 (List version)',
@@ -188,6 +189,6 @@ export const metadata: Metadata = {
     locale: 'zh_TW',
     type: 'website',
   },
-}
+};
 
 export default ActivityListPage;

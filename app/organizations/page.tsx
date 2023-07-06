@@ -1,4 +1,4 @@
-import {Metadata} from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import TableStyle from '../../components/stylesheet/Table.module.css';
 
@@ -15,12 +15,12 @@ async function getStaticData() {
 }
 
 async function OrganizationsPage() {
-  const {data} = await getStaticData();
-  console.log('aaasss::')
+  const { data } = await getStaticData();
+  console.log('aaasss::');
 
   return (
     <>
-      <h1 style={{display: 'none'}}>活動組織列表 List of organization</h1>
+      <h1 style={{ display: 'none' }}>活動組織列表 List of organization</h1>
 
       <table className={TableStyle.table}>
         <thead>
@@ -70,7 +70,8 @@ async function OrganizationsPage() {
   );
 }
 
-const description:string ='DCIT 行事曆記錄著與開發、維運、設計有關的研討會資訊。This records are Developer, DevOps, Design and etc. Conferences In Taiwan and the world.';
+const description =
+  'DCIT 行事曆記錄著與開發、維運、設計有關的研討會資訊。This records are Developer, DevOps, Design and etc. Conferences In Taiwan and the world.';
 
 export const metadata: Metadata = {
   title: 'DCIT 登記在冊的活動組織',
@@ -86,6 +87,6 @@ export const metadata: Metadata = {
     locale: 'zh_TW',
     type: 'website',
   },
-}
+};
 
 export default OrganizationsPage;

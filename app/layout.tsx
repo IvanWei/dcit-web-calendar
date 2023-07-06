@@ -1,9 +1,9 @@
-import { Suspense } from 'react';
+// import { Suspense } from 'react';
 import Script from 'next/script';
 
 import Navbar from '../components/common/Navbar';
 import Footer from '../components/common/Footer';
-import LoadingStyle from '../components/stylesheet/Loading.module.css';
+// import LoadingStyle from '../components/stylesheet/Loading.module.css';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -31,5 +31,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       `}
       </Script>
     </html>
-  )
+  );
 }

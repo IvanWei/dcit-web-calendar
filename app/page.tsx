@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import {Metadata} from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 import { formatInTimeZone as format } from 'date-fns-tz';
@@ -6,7 +6,7 @@ import TableStyle from '../components/stylesheet/Table.module.css';
 
 import generateEventJSONLD from '../lib/generateEventJSONLD.mjs';
 
-export async function getStaticProps() {
+async function getStaticData() {
   const res = await fetch(
     'https://script.google.com/macros/s/AKfycbz2W1KYb1VKgxcBOhKoBYZ_V93CNmdAxHBx_HExjLCBU9Aow6kQvo8c-EUXJqJGg6lm/exec?type=api',
   );
@@ -24,27 +24,15 @@ export async function getStaticProps() {
     );
   }
 
-  return {
-    props: {
-      events,
-    },
-    // Next.js will attempt to re-generate the page:
-    // - When a request comes in
-    // - At most once every second
-    // revalidate: 1, // In seconds
-  };
+  return events;
 }
 
-function ActivityListPage({ events }) {
+async function ActivityListPage() {
+  const events = await getStaticData();
+
   return (
     <>
-      <Head>
-        <title>DCIT 行事曆 (List version)</title>
-        <meta property='og:title' content='DCIT 行事曆 (List version)' />
-        <meta property='og:url' content='https://dcit.ivanwei.co' />
-      </Head>
-
-      <h1>Developer Conferences in Taiwan (List version)</h1>
+      <h1 style={{display: 'none'}}>Developer Conferences in Taiwan (List version)</h1>
       <table className={TableStyle.table}>
         <thead>
           <tr>
@@ -182,6 +170,24 @@ function ActivityListPage({ events }) {
       </table>
     </>
   );
+}
+
+const description:string ='DCIT 行事曆記錄著與開發、維運、設計有關的研討會資訊。This records are Developer, DevOps, Design and etc. Conferences In Taiwan and the world.';
+
+export const metadata: Metadata = {
+  title: 'DCIT 行事曆 (List version)',
+  description,
+  creator: 'Wei Hong-Lin',
+  authors: [{ name: 'Wei Hong-Lin', url: 'https://blog.ivanwei.co' }],
+  keywords: ['DCIT', 'Developer', 'Conference', 'Taiwan', 'Calendar', '行事曆'],
+  openGraph: {
+    title: 'DCIT 行事曆 (List version)',
+    siteName: 'DCIT 行事曆 (List version)',
+    description,
+    url: 'https://dcit.ivanwei.co',
+    locale: 'zh_TW',
+    type: 'website',
+  },
 }
 
 export default ActivityListPage;

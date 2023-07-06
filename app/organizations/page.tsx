@@ -1,35 +1,26 @@
-import Head from 'next/head';
+import {Metadata} from 'next';
 import Link from 'next/link';
-import TableStyle from '../components/stylesheet/Table.module.css';
+import TableStyle from '../../components/stylesheet/Table.module.css';
 
-export async function getStaticProps() {
+async function getStaticData() {
   const res = await fetch(
     'https://script.google.com/macros/s/AKfycbxeVoHvVLXtQnHxsBIb9oUbwFoRrmg5L9_Hie6feqEhIRdoYk4/exec?type=org',
   );
   const { data } = await res.json();
 
   return {
-    props: {
-      title: data[0],
-      data: data[1].table.rows,
-    },
-    // Next.js will attempt to re-generate the page:
-    // - When a request comes in
-    // - At most once every second
-    // revalidate: 1, // In seconds
+    title: data[0],
+    data: data[1].table.rows,
   };
 }
 
-function HomePage({ data }) {
+async function OrganizationsPage() {
+  const {data} = await getStaticData();
+  console.log('aaasss::')
+
   return (
     <>
-      <Head>
-        <title>DCIT 登記在冊的活動組織</title>
-        <meta property='og:title' content='DCIT 登記在冊的活動組織' />
-        <meta property='og:url' content='https://dcit.ivanwei.co/organizations' />
-      </Head>
-
-      <h1>活動組織列表 List of organization</h1>
+      <h1 style={{display: 'none'}}>活動組織列表 List of organization</h1>
 
       <table className={TableStyle.table}>
         <thead>
@@ -79,4 +70,22 @@ function HomePage({ data }) {
   );
 }
 
-export default HomePage;
+const description:string ='DCIT 行事曆記錄著與開發、維運、設計有關的研討會資訊。This records are Developer, DevOps, Design and etc. Conferences In Taiwan and the world.';
+
+export const metadata: Metadata = {
+  title: 'DCIT 登記在冊的活動組織',
+  description,
+  creator: 'Wei Hong-Lin',
+  authors: [{ name: 'Wei Hong-Lin', url: 'https://blog.ivanwei.co' }],
+  keywords: ['DCIT', 'Developer', 'Conference', 'Taiwan', 'Calendar', '行事曆'],
+  openGraph: {
+    title: 'DCIT 登記在冊的活動組織',
+    siteName: 'DCIT 登記在冊的活動組織',
+    description,
+    url: 'https://dcit.ivanwei.co/organizations',
+    locale: 'zh_TW',
+    type: 'website',
+  },
+}
+
+export default OrganizationsPage;

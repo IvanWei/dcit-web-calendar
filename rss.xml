@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2023</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Thu, 17 Aug 2023 16:08:19 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Aug 2023 04:07:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -17,98 +17,77 @@
             <title><![CDATA[[徵稿] DevOpsDays Taipei 2023]]></title>
             <link>https://devopsdays.tw</link>
             <guid>https://devopsdays.tw?id=0</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
-            <title><![CDATA[[徵稿] Kubernetes Summit 2023]]></title>
-            <link>https://k8s.ithome.com.tw/</link>
-            <guid>https://k8s.ithome.com.tw/?id=1</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
-            <title><![CDATA[HITCON CMT 2023 台灣駭客年會]]></title>
-            <link>https://hitcon.org/2023/CMT/</link>
-            <guid>https://hitcon.org/2023/CMT/?id=2</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
-            <title><![CDATA[[會議] {Laravel x Vue}Conf Taiwan 2023]]></title>
-            <link>https://laravelconf.tw/</link>
-            <guid>https://laravelconf.tw/?id=3</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
+            <pubDate>Tue, 22 Aug 2023 04:07:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[PyCon TW 2023]]></title>
             <link>https://tw.pycon.org/2023</link>
-            <guid>https://tw.pycon.org/2023?id=4</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
+            <guid>https://tw.pycon.org/2023?id=1</guid>
+            <pubDate>Tue, 22 Aug 2023 04:07:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[QCon北京 全球軟件開發大會]]></title>
             <link>https://qcon.infoq.cn/202309/beijing</link>
-            <guid>https://qcon.infoq.cn/202309/beijing?id=5</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
+            <guid>https://qcon.infoq.cn/202309/beijing?id=2</guid>
+            <pubDate>Tue, 22 Aug 2023 04:07:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[2023台灣人工智慧年會]]></title>
             <link>https://conf2023.aiacademy.tw/</link>
-            <guid>https://conf2023.aiacademy.tw/?id=6</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
+            <guid>https://conf2023.aiacademy.tw/?id=3</guid>
+            <pubDate>Tue, 22 Aug 2023 04:07:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[DevOpsDays Taipei 2023]]></title>
             <link>https://devopsdays.tw</link>
-            <guid>https://devopsdays.tw?id=7</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
+            <guid>https://devopsdays.tw?id=4</guid>
+            <pubDate>Tue, 22 Aug 2023 04:07:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[JCConf Taiwan 2023]]></title>
             <link>https://jcconf.tw/</link>
-            <guid>https://jcconf.tw/?id=8</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
+            <guid>https://jcconf.tw/?id=5</guid>
+            <pubDate>Tue, 22 Aug 2023 04:07:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Kubernetes Summit 2023]]></title>
             <link>https://k8s.ithome.com.tw/</link>
-            <guid>https://k8s.ithome.com.tw/?id=9</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
+            <guid>https://k8s.ithome.com.tw/?id=6</guid>
+            <pubDate>Tue, 22 Aug 2023 04:07:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[RSG TAIPEI 2023]]></title>
             <link>https://rsg.taipei/</link>
-            <guid>https://rsg.taipei/?id=10</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
+            <guid>https://rsg.taipei/?id=7</guid>
+            <pubDate>Tue, 22 Aug 2023 04:07:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[ModernWeb 2023]]></title>
             <link>https://modernweb.tw/</link>
-            <guid>https://modernweb.tw/?id=11</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
+            <guid>https://modernweb.tw/?id=8</guid>
+            <pubDate>Tue, 22 Aug 2023 04:07:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[MOPCON 2023]]></title>
             <link>https://mopcon.org/</link>
-            <guid>https://mopcon.org/?id=12</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
+            <guid>https://mopcon.org/?id=9</guid>
+            <pubDate>Tue, 22 Aug 2023 04:07:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[SITCON 學生計算機年會 2024]]></title>
             <link>https://sitcon.org/</link>
-            <guid>https://sitcon.org/?id=13</guid>
-            <pubDate>Thu, 17 Aug 2023 16:08:19 GMT</pubDate>
+            <guid>https://sitcon.org/?id=10</guid>
+            <pubDate>Tue, 22 Aug 2023 04:07:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2023</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Wed, 20 Sep 2023 04:08:35 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 30 Sep 2023 16:06:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -17,77 +17,63 @@
             <title><![CDATA[[徵稿] JCConf Taiwan 2023]]></title>
             <link>https://jcconf.tw/</link>
             <guid>https://jcconf.tw/?id=0</guid>
-            <pubDate>Wed, 20 Sep 2023 04:08:35 GMT</pubDate>
+            <pubDate>Sat, 30 Sep 2023 16:06:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[[徵稿] ModernWeb 2023]]></title>
             <link>https://modernweb.tw/</link>
             <guid>https://modernweb.tw/?id=1</guid>
-            <pubDate>Wed, 20 Sep 2023 04:08:35 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
-            <title><![CDATA[2023 國泰金控技術年會－混血共融新智慧]]></title>
-            <link>https://eventgo.bnextmedia.com.tw/event/detail/e98959u64ad1837d335e</link>
-            <guid>https://eventgo.bnextmedia.com.tw/event/detail/e98959u64ad1837d335e?id=2</guid>
-            <pubDate>Wed, 20 Sep 2023 04:08:35 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
-            <title><![CDATA[DevOpsDays Taipei 2023]]></title>
-            <link>https://devopsdays.tw</link>
-            <guid>https://devopsdays.tw?id=3</guid>
-            <pubDate>Wed, 20 Sep 2023 04:08:35 GMT</pubDate>
+            <pubDate>Sat, 30 Sep 2023 16:06:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[JCConf Taiwan 2023]]></title>
             <link>https://jcconf.tw/</link>
-            <guid>https://jcconf.tw/?id=4</guid>
-            <pubDate>Wed, 20 Sep 2023 04:08:35 GMT</pubDate>
+            <guid>https://jcconf.tw/?id=2</guid>
+            <pubDate>Sat, 30 Sep 2023 16:06:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Google Cloud Summit Taipei]]></title>
             <link>https://cloudonair.withgoogle.com/events/summit-taipei-2023</link>
-            <guid>https://cloudonair.withgoogle.com/events/summit-taipei-2023?id=5</guid>
-            <pubDate>Wed, 20 Sep 2023 04:08:35 GMT</pubDate>
+            <guid>https://cloudonair.withgoogle.com/events/summit-taipei-2023?id=3</guid>
+            <pubDate>Sat, 30 Sep 2023 16:06:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Kubernetes Summit 2023]]></title>
             <link>https://k8s.ithome.com.tw/</link>
-            <guid>https://k8s.ithome.com.tw/?id=6</guid>
-            <pubDate>Wed, 20 Sep 2023 04:08:35 GMT</pubDate>
+            <guid>https://k8s.ithome.com.tw/?id=4</guid>
+            <pubDate>Sat, 30 Sep 2023 16:06:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[RSG TAIPEI 2023]]></title>
             <link>https://rsg.taipei/</link>
-            <guid>https://rsg.taipei/?id=7</guid>
-            <pubDate>Wed, 20 Sep 2023 04:08:35 GMT</pubDate>
+            <guid>https://rsg.taipei/?id=5</guid>
+            <pubDate>Sat, 30 Sep 2023 16:06:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[ModernWeb 2023]]></title>
             <link>https://modernweb.tw/</link>
-            <guid>https://modernweb.tw/?id=8</guid>
-            <pubDate>Wed, 20 Sep 2023 04:08:35 GMT</pubDate>
+            <guid>https://modernweb.tw/?id=6</guid>
+            <pubDate>Sat, 30 Sep 2023 16:06:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[MOPCON 2023]]></title>
             <link>https://mopcon.org/</link>
-            <guid>https://mopcon.org/?id=9</guid>
-            <pubDate>Wed, 20 Sep 2023 04:08:35 GMT</pubDate>
+            <guid>https://mopcon.org/?id=7</guid>
+            <pubDate>Sat, 30 Sep 2023 16:06:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[SITCON 學生計算機年會 2024]]></title>
             <link>https://sitcon.org/</link>
-            <guid>https://sitcon.org/?id=10</guid>
-            <pubDate>Wed, 20 Sep 2023 04:08:35 GMT</pubDate>
+            <guid>https://sitcon.org/?id=8</guid>
+            <pubDate>Sat, 30 Sep 2023 16:06:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

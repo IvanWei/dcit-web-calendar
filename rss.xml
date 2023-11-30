@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2023</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Sat, 25 Nov 2023 16:07:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Nov 2023 16:08:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -17,28 +17,28 @@
             <title><![CDATA[.NET Conf 2023 Taiwan]]></title>
             <link>https://dotnetconf.study4.tw/</link>
             <guid>https://dotnetconf.study4.tw/?id=0</guid>
-            <pubDate>Sat, 25 Nov 2023 16:07:11 GMT</pubDate>
+            <pubDate>Thu, 30 Nov 2023 16:08:39 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[RubyConf Taiwan 2023]]></title>
             <link>https://2023.rubyconf.tw/</link>
             <guid>https://2023.rubyconf.tw/?id=1</guid>
-            <pubDate>Sat, 25 Nov 2023 16:07:11 GMT</pubDate>
+            <pubDate>Thu, 30 Nov 2023 16:08:39 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[WordCamp Asia 2024]]></title>
             <link>https://asia.wordcamp.org/2024/</link>
             <guid>https://asia.wordcamp.org/2024/?id=2</guid>
-            <pubDate>Sat, 25 Nov 2023 16:07:11 GMT</pubDate>
+            <pubDate>Thu, 30 Nov 2023 16:08:39 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[SITCON 學生計算機年會 2024]]></title>
             <link>https://sitcon.org/</link>
             <guid>https://sitcon.org/?id=3</guid>
-            <pubDate>Sat, 25 Nov 2023 16:07:11 GMT</pubDate>
+            <pubDate>Thu, 30 Nov 2023 16:08:39 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2024</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Fri, 03 May 2024 02:21:34 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 May 2024 08:08:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -17,91 +17,98 @@
             <title><![CDATA[[徵稿] CYBERSEC 2024 臺灣資安大會]]></title>
             <link>https://cybersec.ithome.com.tw</link>
             <guid>https://cybersec.ithome.com.tw?id=0</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
+            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
+        </item>
+        <item>
+            <title><![CDATA[[徵稿] GopherDay 2024]]></title>
+            <link>https://gopherday.golang.tw/</link>
+            <guid>https://gopherday.golang.tw/?id=1</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[[徵稿] Generative AI Conference 2024]]></title>
             <link>https://2024.gaiconf.com/</link>
-            <guid>https://2024.gaiconf.com/?id=1</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <guid>https://2024.gaiconf.com/?id=2</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[[徵稿] DevOpsDays Taipei 2024]]></title>
             <link>https://devopsdays.tw/</link>
-            <guid>https://devopsdays.tw/?id=2</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <guid>https://devopsdays.tw/?id=3</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[[徵稿] COSCUP 開源人年會 2024]]></title>
             <link>https://coscup.org/2024</link>
-            <guid>https://coscup.org/2024?id=3</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <guid>https://coscup.org/2024?id=4</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[g0v Summit 2024]]></title>
-            <link>https://summit2024.g0v.tw/</link>
-            <guid>https://summit2024.g0v.tw/?id=4</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <link>https://summit.g0v.tw/2024/</link>
+            <guid>https://summit.g0v.tw/2024/?id=5</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[CYBERSEC 2024 臺灣資安大會]]></title>
             <link>https://cybersec.ithome.com.tw</link>
-            <guid>https://cybersec.ithome.com.tw?id=5</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <guid>https://cybersec.ithome.com.tw?id=6</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[GopherDay 2024]]></title>
             <link>https://gopherday.golang.tw/</link>
-            <guid>https://gopherday.golang.tw/?id=6</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <guid>https://gopherday.golang.tw/?id=7</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Generative AI Conference 2024]]></title>
             <link>https://2024.gaiconf.com/</link>
-            <guid>https://2024.gaiconf.com/?id=7</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <guid>https://2024.gaiconf.com/?id=8</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[COSCUP 開源人年會 2024]]></title>
             <link>https://coscup.org/2024</link>
-            <guid>https://coscup.org/2024?id=8</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <guid>https://coscup.org/2024?id=9</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Cloud Summit 2024]]></title>
             <link>https://event.ithome.com.tw/live/tcescfs24/index.html</link>
-            <guid>https://event.ithome.com.tw/live/tcescfs24/index.html?id=9</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <guid>https://event.ithome.com.tw/live/tcescfs24/index.html?id=10</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[SITCON Hackathon 2024]]></title>
             <link>https://hackathon.sitcon.org/2024/</link>
-            <guid>https://hackathon.sitcon.org/2024/?id=10</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <guid>https://hackathon.sitcon.org/2024/?id=11</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[DevOpsDays Taipei 2024]]></title>
             <link>https://devopsdays.tw/</link>
-            <guid>https://devopsdays.tw/?id=11</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <guid>https://devopsdays.tw/?id=12</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[PyCon Taiwan 2024]]></title>
             <link>https://tw.pycon.org/2024</link>
-            <guid>https://tw.pycon.org/2024?id=12</guid>
-            <pubDate>Fri, 03 May 2024 02:21:34 GMT</pubDate>
+            <guid>https://tw.pycon.org/2024?id=13</guid>
+            <pubDate>Sun, 05 May 2024 08:08:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

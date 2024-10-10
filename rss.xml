@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2024</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Mon, 30 Sep 2024 16:11:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Oct 2024 16:12:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -14,87 +14,80 @@
         </image>
         <copyright>© 2024 DCIT team. All rights reserved.</copyright>
         <item>
-            <title><![CDATA[[徵稿] Kubernetes Summit 2024]]></title>
-            <link>https://k8s.ithome.com.tw</link>
-            <guid>https://k8s.ithome.com.tw?id=0</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
             <title><![CDATA[Kubernetes Summit 2024]]></title>
             <link>https://k8s.ithome.com.tw</link>
-            <guid>https://k8s.ithome.com.tw?id=1</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
+            <guid>https://k8s.ithome.com.tw?id=0</guid>
+            <pubDate>Thu, 10 Oct 2024 16:12:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[MOPCON 2024]]></title>
             <link>https://mopcon.org/2024/</link>
-            <guid>https://mopcon.org/2024/?id=2</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
+            <guid>https://mopcon.org/2024/?id=1</guid>
+            <pubDate>Thu, 10 Oct 2024 16:12:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Arm Tech Symposia - 台北]]></title>
             <link>https://events.arm.com/TechSymposia</link>
-            <guid>https://events.arm.com/TechSymposia?id=3</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
+            <guid>https://events.arm.com/TechSymposia?id=2</guid>
+            <pubDate>Thu, 10 Oct 2024 16:12:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Arm Tech Symposia - 新竹]]></title>
             <link>https://events.arm.com/TechSymposia</link>
-            <guid>https://events.arm.com/TechSymposia?id=4</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
+            <guid>https://events.arm.com/TechSymposia?id=3</guid>
+            <pubDate>Thu, 10 Oct 2024 16:12:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[iPlayground 2024]]></title>
             <link>https://iplayground.io/2024/</link>
-            <guid>https://iplayground.io/2024/?id=5</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
+            <guid>https://iplayground.io/2024/?id=4</guid>
+            <pubDate>Thu, 10 Oct 2024 16:12:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Arm Tech Symposia - 東京]]></title>
             <link>https://events.arm.com/TechSymposia</link>
-            <guid>https://events.arm.com/TechSymposia?id=6</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
+            <guid>https://events.arm.com/TechSymposia?id=5</guid>
+            <pubDate>Thu, 10 Oct 2024 16:12:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Arm Tech Symposia - 首爾]]></title>
             <link>https://events.arm.com/TechSymposia</link>
-            <guid>https://events.arm.com/TechSymposia?id=7</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
+            <guid>https://events.arm.com/TechSymposia?id=6</guid>
+            <pubDate>Thu, 10 Oct 2024 16:12:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Arm Tech Symposia - 上海]]></title>
             <link>https://events.arm.com/TechSymposia</link>
-            <guid>https://events.arm.com/TechSymposia?id=8</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
+            <guid>https://events.arm.com/TechSymposia?id=7</guid>
+            <pubDate>Thu, 10 Oct 2024 16:12:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Arm Tech Symposia - 深圳]]></title>
             <link>https://events.arm.com/TechSymposia</link>
-            <guid>https://events.arm.com/TechSymposia?id=9</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
+            <guid>https://events.arm.com/TechSymposia?id=8</guid>
+            <pubDate>Thu, 10 Oct 2024 16:12:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[.NET Conf Taiwan 2024]]></title>
             <link>https://dotnetconf.study4.tw/</link>
-            <guid>https://dotnetconf.study4.tw/?id=10</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
+            <guid>https://dotnetconf.study4.tw/?id=9</guid>
+            <pubDate>Thu, 10 Oct 2024 16:12:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[RightsCon 2025]]></title>
             <link>https://www.rightscon.org/</link>
-            <guid>https://www.rightscon.org/?id=11</guid>
-            <pubDate>Mon, 30 Sep 2024 16:11:15 GMT</pubDate>
+            <guid>https://www.rightscon.org/?id=10</guid>
+            <pubDate>Thu, 10 Oct 2024 16:12:32 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

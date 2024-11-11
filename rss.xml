@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2024</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Wed, 06 Nov 2024 16:10:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Nov 2024 16:10:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -14,38 +14,31 @@
         </image>
         <copyright>© 2024 DCIT team. All rights reserved.</copyright>
         <item>
-            <title><![CDATA[Arm Tech Symposia - 首爾]]></title>
-            <link>https://events.arm.com/TechSymposia</link>
-            <guid>https://events.arm.com/TechSymposia?id=0</guid>
-            <pubDate>Wed, 06 Nov 2024 16:10:56 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
             <title><![CDATA[Arm Tech Symposia - 上海]]></title>
             <link>https://events.arm.com/TechSymposia</link>
-            <guid>https://events.arm.com/TechSymposia?id=1</guid>
-            <pubDate>Wed, 06 Nov 2024 16:10:56 GMT</pubDate>
+            <guid>https://events.arm.com/TechSymposia?id=0</guid>
+            <pubDate>Mon, 11 Nov 2024 16:10:44 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Arm Tech Symposia - 深圳]]></title>
             <link>https://events.arm.com/TechSymposia</link>
-            <guid>https://events.arm.com/TechSymposia?id=2</guid>
-            <pubDate>Wed, 06 Nov 2024 16:10:56 GMT</pubDate>
+            <guid>https://events.arm.com/TechSymposia?id=1</guid>
+            <pubDate>Mon, 11 Nov 2024 16:10:44 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[.NET Conf Taiwan 2024]]></title>
             <link>https://dotnetconf.study4.tw/</link>
-            <guid>https://dotnetconf.study4.tw/?id=3</guid>
-            <pubDate>Wed, 06 Nov 2024 16:10:56 GMT</pubDate>
+            <guid>https://dotnetconf.study4.tw/?id=2</guid>
+            <pubDate>Mon, 11 Nov 2024 16:10:44 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[RightsCon 2025]]></title>
             <link>https://www.rightscon.org/</link>
-            <guid>https://www.rightscon.org/?id=4</guid>
-            <pubDate>Wed, 06 Nov 2024 16:10:56 GMT</pubDate>
+            <guid>https://www.rightscon.org/?id=3</guid>
+            <pubDate>Mon, 11 Nov 2024 16:10:44 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

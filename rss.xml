@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2024</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Mon, 18 Nov 2024 16:11:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Nov 2024 16:11:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -14,24 +14,17 @@
         </image>
         <copyright>© 2024 DCIT team. All rights reserved.</copyright>
         <item>
-            <title><![CDATA[Arm Tech Symposia - 深圳]]></title>
-            <link>https://events.arm.com/TechSymposia</link>
-            <guid>https://events.arm.com/TechSymposia?id=0</guid>
-            <pubDate>Mon, 18 Nov 2024 16:11:14 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
             <title><![CDATA[.NET Conf Taiwan 2024]]></title>
             <link>https://dotnetconf.study4.tw/</link>
-            <guid>https://dotnetconf.study4.tw/?id=1</guid>
-            <pubDate>Mon, 18 Nov 2024 16:11:14 GMT</pubDate>
+            <guid>https://dotnetconf.study4.tw/?id=0</guid>
+            <pubDate>Wed, 20 Nov 2024 16:11:17 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[RightsCon 2025]]></title>
             <link>https://www.rightscon.org/</link>
-            <guid>https://www.rightscon.org/?id=2</guid>
-            <pubDate>Mon, 18 Nov 2024 16:11:14 GMT</pubDate>
+            <guid>https://www.rightscon.org/?id=1</guid>
+            <pubDate>Wed, 20 Nov 2024 16:11:17 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

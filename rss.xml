@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2024</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Wed, 20 Nov 2024 16:11:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 30 Nov 2024 16:11:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -17,14 +17,14 @@
             <title><![CDATA[.NET Conf Taiwan 2024]]></title>
             <link>https://dotnetconf.study4.tw/</link>
             <guid>https://dotnetconf.study4.tw/?id=0</guid>
-            <pubDate>Wed, 20 Nov 2024 16:11:17 GMT</pubDate>
+            <pubDate>Sat, 30 Nov 2024 16:11:52 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[RightsCon 2025]]></title>
             <link>https://www.rightscon.org/</link>
             <guid>https://www.rightscon.org/?id=1</guid>
-            <pubDate>Wed, 20 Nov 2024 16:11:17 GMT</pubDate>
+            <pubDate>Sat, 30 Nov 2024 16:11:52 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2025</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Sat, 22 Feb 2025 16:09:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Feb 2025 16:11:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -14,66 +14,59 @@
         </image>
         <copyright>© 2025 DCIT team. All rights reserved.</copyright>
         <item>
-            <title><![CDATA[[徵稿] RightsCon 2025]]></title>
-            <link>https://www.rightscon.org/</link>
-            <guid>https://www.rightscon.org/?id=0</guid>
-            <pubDate>Sat, 22 Feb 2025 16:09:21 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
             <title><![CDATA[[徵稿] DevOpsDays Taipei 2025]]></title>
             <link>https://devopsdays.tw</link>
-            <guid>https://devopsdays.tw?id=1</guid>
-            <pubDate>Sat, 22 Feb 2025 16:09:21 GMT</pubDate>
+            <guid>https://devopsdays.tw?id=0</guid>
+            <pubDate>Mon, 24 Feb 2025 16:11:25 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[RightsCon 2025]]></title>
             <link>https://www.rightscon.org/</link>
-            <guid>https://www.rightscon.org/?id=2</guid>
-            <pubDate>Sat, 22 Feb 2025 16:09:21 GMT</pubDate>
+            <guid>https://www.rightscon.org/?id=1</guid>
+            <pubDate>Mon, 24 Feb 2025 16:11:25 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[2025數位永續高峰會]]></title>
             <link>https://dss.ithome.com.tw/2025/index.html</link>
-            <guid>https://dss.ithome.com.tw/2025/index.html?id=3</guid>
-            <pubDate>Sat, 22 Feb 2025 16:09:21 GMT</pubDate>
+            <guid>https://dss.ithome.com.tw/2025/index.html?id=2</guid>
+            <pubDate>Mon, 24 Feb 2025 16:11:25 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[SITCON 學生計算機年會 2024]]></title>
             <link>https://sitcon.org/</link>
-            <guid>https://sitcon.org/?id=4</guid>
-            <pubDate>Sat, 22 Feb 2025 16:09:21 GMT</pubDate>
+            <guid>https://sitcon.org/?id=3</guid>
+            <pubDate>Mon, 24 Feb 2025 16:11:25 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[CYBERSEC 2025 臺灣資安大會]]></title>
             <link>https://cybersec.ithome.com.tw/</link>
-            <guid>https://cybersec.ithome.com.tw/?id=5</guid>
-            <pubDate>Sat, 22 Feb 2025 16:09:21 GMT</pubDate>
+            <guid>https://cybersec.ithome.com.tw/?id=4</guid>
+            <pubDate>Mon, 24 Feb 2025 16:11:25 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[DevOpsDays Taipei 2025]]></title>
             <link>https://devopsdays.tw</link>
-            <guid>https://devopsdays.tw?id=6</guid>
-            <pubDate>Sat, 22 Feb 2025 16:09:21 GMT</pubDate>
+            <guid>https://devopsdays.tw?id=5</guid>
+            <pubDate>Mon, 24 Feb 2025 16:11:25 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[2025 Cloud Summit 臺灣雲端大會]]></title>
             <link>https://cloudsummit.ithome.com.tw/</link>
-            <guid>https://cloudsummit.ithome.com.tw/?id=7</guid>
-            <pubDate>Sat, 22 Feb 2025 16:09:21 GMT</pubDate>
+            <guid>https://cloudsummit.ithome.com.tw/?id=6</guid>
+            <pubDate>Mon, 24 Feb 2025 16:11:25 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Kubernetes Summit 2025]]></title>
             <link>https://k8s.ithome.com.tw</link>
-            <guid>https://k8s.ithome.com.tw?id=8</guid>
-            <pubDate>Sat, 22 Feb 2025 16:09:21 GMT</pubDate>
+            <guid>https://k8s.ithome.com.tw?id=7</guid>
+            <pubDate>Mon, 24 Feb 2025 16:11:25 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2025</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Thu, 31 Jul 2025 16:14:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Aug 2025 03:43:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -17,56 +17,63 @@
             <title><![CDATA[[徵稿] iPlayground 2025]]></title>
             <link>https://iplayground.io/2025/</link>
             <guid>https://iplayground.io/2025/?id=0</guid>
-            <pubDate>Thu, 31 Jul 2025 16:14:10 GMT</pubDate>
+            <pubDate>Tue, 12 Aug 2025 03:43:10 GMT</pubDate>
+            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
+        </item>
+        <item>
+            <title><![CDATA[[徵稿] Kubernetes Summit 2025]]></title>
+            <link>https://k8s.ithome.com.tw</link>
+            <guid>https://k8s.ithome.com.tw?id=1</guid>
+            <pubDate>Tue, 12 Aug 2025 03:43:10 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[[徵稿] Hello World Dev Conference 2025]]></title>
             <link>https://hwdc.ithome.com.tw/2025</link>
-            <guid>https://hwdc.ithome.com.tw/2025?id=1</guid>
-            <pubDate>Thu, 31 Jul 2025 16:14:10 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
-            <title><![CDATA[COSCUP x RubyConf Taiwan 2025]]></title>
-            <link>https://coscup.org/2025/</link>
-            <guid>https://coscup.org/2025/?id=2</guid>
-            <pubDate>Thu, 31 Jul 2025 16:14:10 GMT</pubDate>
+            <guid>https://hwdc.ithome.com.tw/2025?id=2</guid>
+            <pubDate>Tue, 12 Aug 2025 03:43:10 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[iPlayground 2025]]></title>
             <link>https://iplayground.io/2025/</link>
             <guid>https://iplayground.io/2025/?id=3</guid>
-            <pubDate>Thu, 31 Jul 2025 16:14:10 GMT</pubDate>
+            <pubDate>Tue, 12 Aug 2025 03:43:10 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[PyCon TW 2025]]></title>
             <link>https://tw.pycon.org/2025</link>
             <guid>https://tw.pycon.org/2025?id=4</guid>
-            <pubDate>Thu, 31 Jul 2025 16:14:10 GMT</pubDate>
+            <pubDate>Tue, 12 Aug 2025 03:43:10 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[JCConf 2025 + TKUG]]></title>
             <link>https://jcconf.tw/2025/</link>
             <guid>https://jcconf.tw/2025/?id=5</guid>
-            <pubDate>Thu, 31 Jul 2025 16:14:10 GMT</pubDate>
+            <pubDate>Tue, 12 Aug 2025 03:43:10 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Hello World Dev Conference 2025]]></title>
             <link>https://hwdc.ithome.com.tw/2025</link>
             <guid>https://hwdc.ithome.com.tw/2025?id=6</guid>
-            <pubDate>Thu, 31 Jul 2025 16:14:10 GMT</pubDate>
+            <pubDate>Tue, 12 Aug 2025 03:43:10 GMT</pubDate>
+            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
+        </item>
+        <item>
+            <title><![CDATA[HITCON CISO Summit 2025]]></title>
+            <link>https://hitcon.org/2025/CISO/</link>
+            <guid>https://hitcon.org/2025/CISO/?id=7</guid>
+            <pubDate>Tue, 12 Aug 2025 03:43:10 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Kubernetes Summit 2025]]></title>
             <link>https://k8s.ithome.com.tw</link>
-            <guid>https://k8s.ithome.com.tw?id=7</guid>
-            <pubDate>Thu, 31 Jul 2025 16:14:10 GMT</pubDate>
+            <guid>https://k8s.ithome.com.tw?id=8</guid>
+            <pubDate>Tue, 12 Aug 2025 03:43:10 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

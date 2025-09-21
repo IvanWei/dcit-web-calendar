@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2025</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Thu, 18 Sep 2025 16:12:23 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Sep 2025 16:09:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -17,70 +17,63 @@
             <title><![CDATA[[徵稿] Kubernetes Summit 2025]]></title>
             <link>https://k8s.ithome.com.tw</link>
             <guid>https://k8s.ithome.com.tw?id=0</guid>
-            <pubDate>Thu, 18 Sep 2025 16:12:23 GMT</pubDate>
+            <pubDate>Sun, 21 Sep 2025 16:09:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[[徵稿] Hello World Dev Conference 2025]]></title>
             <link>https://hwdc.ithome.com.tw/2025</link>
             <guid>https://hwdc.ithome.com.tw/2025?id=1</guid>
-            <pubDate>Thu, 18 Sep 2025 16:12:23 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
-            <title><![CDATA[Agentic AI Developer Day 2025 Taipei]]></title>
-            <link>https://gdg.community.dev/events/details/google-gdg-taipei-presents-agentic-ai-developer-day-2025-taipei/</link>
-            <guid>https://gdg.community.dev/events/details/google-gdg-taipei-presents-agentic-ai-developer-day-2025-taipei/?id=2</guid>
-            <pubDate>Thu, 18 Sep 2025 16:12:23 GMT</pubDate>
+            <pubDate>Sun, 21 Sep 2025 16:09:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Hello World Dev Conference 2025]]></title>
             <link>https://hwdc.ithome.com.tw/2025</link>
-            <guid>https://hwdc.ithome.com.tw/2025?id=3</guid>
-            <pubDate>Thu, 18 Sep 2025 16:12:23 GMT</pubDate>
+            <guid>https://hwdc.ithome.com.tw/2025?id=2</guid>
+            <pubDate>Sun, 21 Sep 2025 16:09:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[HITCON CISO Summit 2025]]></title>
             <link>https://hitcon.org/2025/CISO/</link>
-            <guid>https://hitcon.org/2025/CISO/?id=4</guid>
-            <pubDate>Thu, 18 Sep 2025 16:12:23 GMT</pubDate>
+            <guid>https://hitcon.org/2025/CISO/?id=3</guid>
+            <pubDate>Sun, 21 Sep 2025 16:09:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Kubernetes Summit 2025]]></title>
             <link>https://k8s.ithome.com.tw</link>
-            <guid>https://k8s.ithome.com.tw?id=5</guid>
-            <pubDate>Thu, 18 Sep 2025 16:12:23 GMT</pubDate>
+            <guid>https://k8s.ithome.com.tw?id=4</guid>
+            <pubDate>Sun, 21 Sep 2025 16:09:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[MOPCON 2025]]></title>
             <link>https://mopcon.org/</link>
-            <guid>https://mopcon.org/?id=6</guid>
-            <pubDate>Thu, 18 Sep 2025 16:12:23 GMT</pubDate>
+            <guid>https://mopcon.org/?id=5</guid>
+            <pubDate>Sun, 21 Sep 2025 16:09:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[Grace Hopper Celebration 2025]]></title>
             <link>https://ghc.anitab.org/</link>
-            <guid>https://ghc.anitab.org/?id=7</guid>
-            <pubDate>Thu, 18 Sep 2025 16:12:23 GMT</pubDate>
+            <guid>https://ghc.anitab.org/?id=6</guid>
+            <pubDate>Sun, 21 Sep 2025 16:09:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[JSDC Taiwan 2025]]></title>
             <link>https://2025.jsdc.tw/</link>
-            <guid>https://2025.jsdc.tw/?id=8</guid>
-            <pubDate>Thu, 18 Sep 2025 16:12:23 GMT</pubDate>
+            <guid>https://2025.jsdc.tw/?id=7</guid>
+            <pubDate>Sun, 21 Sep 2025 16:09:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
         <item>
             <title><![CDATA[DevFest Taipei 2025]]></title>
             <link>https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2025/cohost-gdg-taipei</link>
-            <guid>https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2025/cohost-gdg-taipei?id=9</guid>
-            <pubDate>Thu, 18 Sep 2025 16:12:23 GMT</pubDate>
+            <guid>https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2025/cohost-gdg-taipei?id=8</guid>
+            <pubDate>Sun, 21 Sep 2025 16:09:41 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

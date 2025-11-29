@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2025</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Mon, 03 Nov 2025 16:12:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 29 Nov 2025 16:11:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -14,24 +14,10 @@
         </image>
         <copyright>© 2025 DCIT team. All rights reserved.</copyright>
         <item>
-            <title><![CDATA[Grace Hopper Celebration 2025]]></title>
-            <link>https://ghc.anitab.org/</link>
-            <guid>https://ghc.anitab.org/?id=0</guid>
-            <pubDate>Mon, 03 Nov 2025 16:12:31 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
-            <title><![CDATA[JSDC Taiwan 2025]]></title>
-            <link>https://2025.jsdc.tw/</link>
-            <guid>https://2025.jsdc.tw/?id=1</guid>
-            <pubDate>Mon, 03 Nov 2025 16:12:31 GMT</pubDate>
-            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
-        </item>
-        <item>
             <title><![CDATA[DevFest Taipei 2025]]></title>
             <link>https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2025/cohost-gdg-taipei</link>
-            <guid>https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2025/cohost-gdg-taipei?id=2</guid>
-            <pubDate>Mon, 03 Nov 2025 16:12:31 GMT</pubDate>
+            <guid>https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2025/cohost-gdg-taipei?id=0</guid>
+            <pubDate>Sat, 29 Nov 2025 16:11:21 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

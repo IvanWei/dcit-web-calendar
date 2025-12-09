@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2025</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Fri, 05 Dec 2025 16:13:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Dec 2025 18:14:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -14,10 +14,17 @@
         </image>
         <copyright>© 2025 DCIT team. All rights reserved.</copyright>
         <item>
-            <title><![CDATA[DevFest Taipei 2025]]></title>
-            <link>https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2025/cohost-gdg-taipei</link>
-            <guid>https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2025/cohost-gdg-taipei?id=0</guid>
-            <pubDate>Fri, 05 Dec 2025 16:13:15 GMT</pubDate>
+            <title><![CDATA[WebConf Taiwan 2025]]></title>
+            <link>https://webconf.tw/</link>
+            <guid>https://webconf.tw/?id=0</guid>
+            <pubDate>Tue, 09 Dec 2025 18:14:08 GMT</pubDate>
+            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
+        </item>
+        <item>
+            <title><![CDATA[IEEE ICCE-TW 2026]]></title>
+            <link>https://www.icce-tw.org/</link>
+            <guid>https://www.icce-tw.org/?id=1</guid>
+            <pubDate>Tue, 09 Dec 2025 18:14:08 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

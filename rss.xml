@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Developer Conferences In Taiwan 2025</title>
+        <title>Developer Conferences In Taiwan 2026</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Wed, 31 Dec 2025 16:13:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jan 2026 00:57:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
-            <title>Developer Conferences In Taiwan 2025</title>
+            <title>Developer Conferences In Taiwan 2026</title>
             <url>https://blog.ivanwei.co/images/2018/05/16/DCIT.png</url>
             <link>https://dcit.ivanwei.co/</link>
         </image>
-        <copyright>© 2025 DCIT team. All rights reserved.</copyright>
+        <copyright>© 2026 DCIT team. All rights reserved.</copyright>
         <item>
             <title><![CDATA[IEEE ICCE-TW 2026]]></title>
             <link>https://www.icce-tw.org/</link>
             <guid>https://www.icce-tw.org/?id=0</guid>
-            <pubDate>Wed, 31 Dec 2025 16:13:52 GMT</pubDate>
+            <pubDate>Thu, 01 Jan 2026 00:57:24 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>

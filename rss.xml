@@ -4,7 +4,7 @@
         <title>Developer Conferences In Taiwan 2026</title>
         <link>https://dcit.ivanwei.co/</link>
         <description>DCIT daily</description>
-        <lastBuildDate>Thu, 01 Jan 2026 00:57:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jan 2026 02:52:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for DCIT</generator>
         <image>
@@ -14,10 +14,24 @@
         </image>
         <copyright>© 2026 DCIT team. All rights reserved.</copyright>
         <item>
+            <title><![CDATA[[徵稿] SITCON 學生計算機年會 2026]]></title>
+            <link>https://sitcon.org/</link>
+            <guid>https://sitcon.org/?id=0</guid>
+            <pubDate>Fri, 02 Jan 2026 02:52:48 GMT</pubDate>
+            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
+        </item>
+        <item>
+            <title><![CDATA[SITCON 學生計算機年會 2026]]></title>
+            <link>https://sitcon.org/</link>
+            <guid>https://sitcon.org/?id=1</guid>
+            <pubDate>Fri, 02 Jan 2026 02:52:48 GMT</pubDate>
+            <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
+        </item>
+        <item>
             <title><![CDATA[IEEE ICCE-TW 2026]]></title>
             <link>https://www.icce-tw.org/</link>
-            <guid>https://www.icce-tw.org/?id=0</guid>
-            <pubDate>Thu, 01 Jan 2026 00:57:24 GMT</pubDate>
+            <guid>https://www.icce-tw.org/?id=2</guid>
+            <pubDate>Fri, 02 Jan 2026 02:52:48 GMT</pubDate>
             <author>contact@ivanwei.co (Wei Hong-Lin (aka Ivan Wei))</author>
         </item>
     </channel>
